@@ -1,1 +1,1 @@
-# nkod-sk
+# Slovenský Národní katalog otevřených dat
