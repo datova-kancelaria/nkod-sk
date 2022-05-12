@@ -1,0 +1,356 @@
+[ {
+  "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610",
+    "@type" : [ "http://linkedpipes.com/ontology/Pipeline" ],
+    "http://etl.linkedpipes.com/ontology/tag" : [ {
+      "@value" : "sk-nkod"
+    } ],
+    "http://etl.linkedpipes.com/ontology/version" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "2"
+    } ],
+    "http://linkedpipes.com/ontology/profile" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/2"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Processing data.gov.sk - RDF"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/10",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "FilesOutput"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/7"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/3"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/11",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/8"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/6"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/12",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "FilesOutput"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/4"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/5"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/13",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/3"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/8"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/2",
+    "@type" : [ "http://linkedpipes.com/ontology/ExecutionProfile" ],
+    "http://linkedpipes.com/ontology/rdfRepositoryPolicy" : [ {
+      "@id" : "http://linkedpipes.com/ontology/repository/PerInputRepository"
+    } ],
+    "http://linkedpipes.com/ontology/rdfRepositoryType" : [ {
+      "@id" : "http://linkedpipes.com/ontology/repository/NativeStore"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/3",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/18"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-filesToRdfChunked/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "398"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "79"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Files to RDF Chunked"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/4",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/14"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "704"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-164"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Prefixes"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Text holder"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/5",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/graph/16"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-filesToRdfGraph/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "664"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-87"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Files to RDF single graph"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/6",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/21"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-rdfToFile/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "894"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "3"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "RDF to file"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/7",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/17"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-filesFromLocal/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "208"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "100"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Files from local"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/8",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/graph/20"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-chunkedToGraph/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "648"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "21"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Chunked merger"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/9",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/5"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/6"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610"
+}, {
+  "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/14",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-textHolder#content" : [ {
+      "@value" : "@prefix dcat: <http://www.w3.org/ns/dcat#> .\n@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix adms: <http://www.w3.org/ns/adms#> .\n\n@prefix ds: <https://data.gov.sk/dataset/> .\n@prefix skorg: <https://data.gov.sk/organization/> ."
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-textHolder#fileName" : [ {
+      "@value" : "prefixes.ttl"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-textHolder#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/14"
+}, {
+  "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/17",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#path" : [ {
+      "@value" : "/data/nkod-sk/data.gov.sk/rdf"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#pathControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/17"
+}, {
+  "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/18",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#commitSize" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#commitSizeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#filePredicateControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#fileReference" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#fileReferenceControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#mimeType" : [ {
+      "@value" : ""
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#mimeTypeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#softFail" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#softFailControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#threads" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "8"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#threadsControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/18"
+}, {
+  "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/21",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-rdfToFile#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileName" : [ {
+      "@value" : "sk-nkod.ttl"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileType" : [ {
+      "@value" : "text/turtle"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileTypeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUri" : [ {
+      "@id" : "http://localhost/default"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/21"
+}, {
+  "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/15",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSize" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "50000"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSizeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeType" : [ {
+      "@value" : ""
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeTypeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFail" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFailControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/graph/16"
+}, {
+  "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/19",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-chunkedToGraph#Configuration" ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823979610/graph/20"
+} ]
