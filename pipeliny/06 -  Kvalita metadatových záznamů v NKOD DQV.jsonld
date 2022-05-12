@@ -87,11 +87,7 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652271093522",
     "@type" : [ "http://linkedpipes.com/ontology/Pipeline" ],
     "http://etl.linkedpipes.com/ontology/tag" : [ {
-      "@value" : "NKOD"
-    }, {
-      "@value" : "RUNEXTERNALLY"
-    }, {
-      "@value" : "5"
+      "@value" : "4"
     } ],
     "http://etl.linkedpipes.com/ontology/version" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
@@ -101,7 +97,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652271093522/2"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@value" : "11 Kvalita metadatových záznamů v NKOD DQV"
+      "@value" : "06 -  Kvalita metadatových záznamů v NKOD DQV"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652271093522/10",

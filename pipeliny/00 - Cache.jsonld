@@ -4,10 +4,6 @@
     "@type" : [ "http://linkedpipes.com/ontology/Pipeline" ],
     "http://etl.linkedpipes.com/ontology/tag" : [ {
       "@value" : "0"
-    }, {
-      "@value" : "NKOD"
-    }, {
-      "@value" : "sk-nkod"
     } ],
     "http://etl.linkedpipes.com/ontology/version" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
@@ -17,7 +13,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652340484429/profile/default"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@value" : "Cache"
+      "@value" : "00 - Cache"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652340484429/component/22e0-8ae9",
@@ -119,7 +115,7 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652340484429/profile/default",
     "@type" : [ "http://linkedpipes.com/ontology/ExecutionProfile" ],
     "http://linkedpipes.com/ontology/rdfRepositoryPolicy" : [ {
-      "@id" : "http://linkedpipes.com/ontology/repository/PerInputRepository"
+      "@id" : "http://linkedpipes.com/ontology/repository/SingleRepository"
     } ],
     "http://linkedpipes.com/ontology/rdfRepositoryType" : [ {
       "@id" : "http://linkedpipes.com/ontology/repository/MemoryStore"

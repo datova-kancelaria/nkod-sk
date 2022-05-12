@@ -3,11 +3,7 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074",
     "@type" : [ "http://linkedpipes.com/ontology/Pipeline" ],
     "http://etl.linkedpipes.com/ontology/tag" : [ {
-      "@value" : "NKOD"
-    }, {
-      "@value" : "RUNEXTERNALLY"
-    }, {
-      "@value" : "5"
+      "@value" : "4"
     } ],
     "http://etl.linkedpipes.com/ontology/version" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
@@ -17,7 +13,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/2"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@value" : "09 Statistika dostupnosti distribucí, schémat, podmínek užití a dokumentace - HEAD"
+      "@value" : "04 - Statistika dostupnosti distribucí, schémat, podmínek užití a dokumentace - HEAD"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/10",
@@ -520,7 +516,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/114"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/e369-ba42"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/1628-addf"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/128",
@@ -648,7 +644,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/78"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/5b13-9400"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/1d73-8550"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/137",
@@ -666,7 +662,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/5"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/c43e-8483"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/94a2-9be3"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/139",
@@ -797,7 +793,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/142"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/1363-ba34"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/5897-9ca1"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/147",
@@ -988,7 +984,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/28"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/4129-a463"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/6009-9538"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/16",
@@ -1071,7 +1067,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/105"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/cadb-9379"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/490f-83a8"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/166",
@@ -1746,7 +1742,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/34"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/7a0e-a133"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/56f2-849e"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/33",
@@ -1974,7 +1970,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/31"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/bae6-8e9d"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/3bb5-8b77"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/46",
@@ -2570,7 +2566,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/47"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/dc44-b03f"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/86e6-8e6a"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/77",
@@ -2623,7 +2619,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/53"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/fd13-96c9"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/fd31-96d8"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/81",
@@ -2641,7 +2637,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/68"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/91b1-b8f6"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/a684-8470"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/83",
@@ -2697,7 +2693,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/64"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/a536-b162"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/a988-949e"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/87",
@@ -2715,7 +2711,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/73"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/d264-b200"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/fa93-b43e"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/89",
@@ -2771,7 +2767,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/49"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/1f38-b9cc"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/3201-85b6"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/92",
@@ -2789,7 +2785,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/66"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/0a45-a6d8"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/17e9-9084"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/94",
@@ -2807,7 +2803,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/70"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/21e8-81bf"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/428c-a650"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/96",
@@ -2892,217 +2888,7 @@
       "@value" : "Graph store purger"
     } ]
   }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/0a45-a6d8",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "359"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "536"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/1363-ba34",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "398"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1709"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/1f38-b9cc",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "344"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-184"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/21e8-81bf",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "322"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-336"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/4129-a463",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "308"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "2163"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/5b13-9400",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "389"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1123"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/7a0e-a133",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "385"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "975"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/91b1-b8f6",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "382"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "876"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/a536-b162",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "359"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-8"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/bae6-8e9d",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "403"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1895"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/c43e-8483",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "385"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1507"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/cadb-9379",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "346"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1999"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/d264-b200",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "381"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "707"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/dc44-b03f",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "377"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "384"
-    } ]
-  }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/e369-ba42",
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/1628-addf",
     "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
@@ -3117,7 +2903,217 @@
       "@value" : "1338"
     } ]
   }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/fd13-96c9",
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/17e9-9084",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "359"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "536"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/1d73-8550",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "389"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1123"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/3201-85b6",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "344"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-184"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/3bb5-8b77",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "403"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1895"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/428c-a650",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "322"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-336"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/490f-83a8",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "346"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1999"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/56f2-849e",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "385"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "975"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/5897-9ca1",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "398"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1709"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/6009-9538",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "308"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2163"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/86e6-8e6a",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "377"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "384"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/94a2-9be3",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "385"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1507"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/a684-8470",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "382"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "876"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/a988-949e",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "359"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-8"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/fa93-b43e",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "381"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "707"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652282150074/vertex/fd31-96d8",
     "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
