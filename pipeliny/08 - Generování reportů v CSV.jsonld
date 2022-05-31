@@ -3321,7 +3321,7 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652341222090/214",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX nkod: <https://data.gov.sk/zdroj/katalog/NKOD>\n\nCONSTRUCT {\n  <urn:Datum> <urn:AktuálníDatumIRI> ?refPeriod .\n} \nWHERE {\n  nkod: dcterms:modified ?date .\n\n  BIND(\"http://reference.data.gov.uk/id/gregorian-day/\" as ?datePrefix)\n  BIND(IRI(CONCAT(?datePrefix, STR(?date))) AS ?refPeriod)\n}"
+      "@value" : "PREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX nkod: <https://data.gov.sk/set/katalog/NKOD>\n\nCONSTRUCT {\n  <urn:Datum> <urn:AktuálníDatumIRI> ?refPeriod .\n} \nWHERE {\n  nkod: dcterms:modified ?date .\n\n  BIND(\"http://reference.data.gov.uk/id/gregorian-day/\" as ?datePrefix)\n  BIND(IRI(CONCAT(?datePrefix, STR(?date))) AS ?refPeriod)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
