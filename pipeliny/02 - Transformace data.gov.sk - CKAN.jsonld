@@ -93,11 +93,11 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-191"
+      "@value" : "-510"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "523"
+      "@value" : "413"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "JSON to JSON-LD"
@@ -133,11 +133,11 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "88"
+      "@value" : "-230"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "592"
+      "@value" : "466"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Chunked merger"
@@ -228,11 +228,11 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-172"
+      "@value" : "-503"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "455"
+      "@value" : "335"
     } ],
     "http://purl.org/dc/terms/description" : [ {
       "@value" : "JSON"
@@ -251,11 +251,11 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-324"
+      "@value" : "-103"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "893"
+      "@value" : "906"
     } ],
     "http://purl.org/dc/terms/description" : [ {
       "@value" : "Format mapping"
@@ -297,11 +297,11 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-142"
+      "@value" : "-138"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1044"
+      "@value" : "1182"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Files to RDF single graph"
@@ -567,7 +567,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/14"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/vertex/0eac-aa22"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/vertex/8657-857d"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/37",
@@ -954,11 +954,11 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-120"
+      "@value" : "-56"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "892"
+      "@value" : "975"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Tabular"
@@ -974,11 +974,11 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-189"
+      "@value" : "-493"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "607"
+      "@value" : "500"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Files to RDF Chunked"
@@ -994,11 +994,11 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-189"
+      "@value" : "-492"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "771"
+      "@value" : "667"
     } ],
     "http://purl.org/dc/terms/description" : [ {
       "@value" : "Mapovat organizace"
@@ -1025,6 +1025,29 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Files to local"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/13e7-a227",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/13e7-a227/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-804"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "834"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Datasety -> Série"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Text holder"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/1c9a-a013",
@@ -1073,6 +1096,26 @@
       "@value" : "Text holder"
     } ]
   }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/3a7e-a95d",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/3a7e-a95d/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-tabular/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-710"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1051"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Tabular"
+    } ]
+  }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/3f2f-889d",
     "@type" : [ "http://linkedpipes.com/ontology/Component" ],
     "http://linkedpipes.com/ontology/configurationGraph" : [ {
@@ -1096,6 +1139,26 @@
       "@value" : "SPARQL select"
     } ]
   }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/4c7d-ba12",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/4c7d-ba12/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-sparqlUpdateChunked/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-498"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1115"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL update chunked"
+    } ]
+  }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/515d-9b08",
     "@type" : [ "http://linkedpipes.com/ontology/Component" ],
     "http://linkedpipes.com/ontology/configurationGraph" : [ {
@@ -1106,11 +1169,11 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-176"
+      "@value" : "-92"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "972"
+      "@value" : "1125"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Files from local"
@@ -1166,11 +1229,11 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-492"
+      "@value" : "-719"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "636"
+      "@value" : "463"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Text holder"
@@ -1186,14 +1249,57 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-474"
+      "@value" : "-697"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "700"
+      "@value" : "534"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Tabular"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/76d7-a717",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/76d7-a717/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-chunkedToGraph/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-224"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "862"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Chunked merger"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/798e-a008",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/798e-a008/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-sparqlLinkerChunked/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-496"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1007"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Udělat série z distribucí"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL linker chunked"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/8cc9-ab77",
@@ -1206,14 +1312,57 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "330"
+      "@value" : "-241"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "505"
+      "@value" : "322"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "SPARQL select"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/9149-b68f",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/9149-b68f/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-tabular/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-719"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "899"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Tabular"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/af45-8ad5",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/af45-8ad5/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-sparqlLinkerChunked/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-483"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "889"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Přidat série nad datasety"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL linker chunked"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/bdd1-bb75",
@@ -1226,11 +1375,77 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "86"
+      "@value" : "-242"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "526"
+      "@value" : "405"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Chunked merger"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c3ec-bf90",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c3ec-bf90/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-sparqlUpdateChunked/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-503"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "787"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Změnit bn organizace na IRI"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL update chunked"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c8c9-9d05",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c8c9-9d05/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-794"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "986"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Datasety -> Série"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Text holder"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c985-a40c",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c985-a40c/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-chunkedToGraph/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-332"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1199"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Chunked merger"
@@ -1246,11 +1461,11 @@
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-197"
+      "@value" : "-502"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "689"
+      "@value" : "584"
     } ],
     "http://purl.org/dc/terms/description" : [ {
       "@value" : "Fix local datastore URLs"
@@ -1292,6 +1507,21 @@
     } ],
     "http://linkedpipes.com/ontology/targetComponent" : [ {
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/efaa-8996"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/0c49-8909",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/af45-8ad5"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "DataRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/798e-a008"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/10d8-8927",
@@ -1357,13 +1587,28 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/2f57-b43a"
     } ]
   }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/2c0c-aede",
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/2411-98c3",
     "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
     "http://linkedpipes.com/ontology/sourceBinding" : [ {
       "@value" : "OutputRdf"
     } ],
     "http://linkedpipes.com/ontology/sourceComponent" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/0081-b60a"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c3ec-bf90"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "DataRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/af45-8ad5"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/2c41-91fd",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/4c7d-ba12"
     } ],
     "http://linkedpipes.com/ontology/targetBinding" : [ {
       "@value" : "InputRdf"
@@ -1432,6 +1677,51 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/52c4-9ac5"
     } ]
   }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/488a-9eb1",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "FilesOutput"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/13e7-a227"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/9149-b68f"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/4a22-bd53",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/3a7e-a95d"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "ReferenceRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/798e-a008"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/4a2d-9369",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/0081-b60a"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c3ec-bf90"
+    } ]
+  }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/4aa3-a18f",
     "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
     "http://linkedpipes.com/ontology/sourceBinding" : [ {
@@ -1445,6 +1735,66 @@
     } ],
     "http://linkedpipes.com/ontology/targetComponent" : [ {
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/efaa-8996"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/4af8-b8af",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/9149-b68f"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "ReferenceRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/af45-8ad5"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/533f-9952",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/798e-a008"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/4c7d-ba12"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/7421-9313",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/4c7d-ba12"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c985-a40c"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/86be-a90a",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/af45-8ad5"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/76d7-a717"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/9d47-8e35",
@@ -1531,7 +1881,22 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/e7d4-99c1"
     } ]
   }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/vertex/0eac-aa22",
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/connection/f17e-9ae4",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "FilesOutput"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c8c9-9d05"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/3a7e-a95d"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/vertex/8657-857d",
     "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
@@ -1890,7 +2255,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#query" : [ {
-      "@value" : "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX adms: <http://www.w3.org/ns/adms#>\nPREFIX geo: <http://www.opengis.net/ont/geosparql#>\nPREFIX locn: <http://www.w3.org/ns/locn#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\n\nPREFIX nkod: <https://data.gov.sk/slovník/nkod/>\n\nCONSTRUCT { \n  ?dataset a dcat:Dataset ;\n    dcterms:title ?title ;\n    dcterms:description ?description ;\n    dcat:keyword ?keyword ;\n    dcterms:identifier ?id ;\n    dcterms:issued ?issued ;\n    dcterms:modified ?modified .\n  \n  ?dataset dcterms:spatial ?spatial .\n  ?spatial a dcterms:Location ;\n  \tlocn:geometry ?geoJSON .\n  \n  ?dataset dcterms:publisher ?publisher .\n  ?publisher a foaf:Agent ;\n    foaf:name ?pname .\n  \n  ?dataset dcat:distribution ?distribution .\n  ?distribution a dcat:Distribution ;\n    dcat:accessURL ?accessURL ;\n    dcat:downloadURL ?accessURL ;\n    dcterms:title ?dname ;\n    dcterms:description ?ddescription ;\n    dcterms:license ?license ;\n    dcterms:conformsTo ?dconformsTo ;\n    \n    nkod:status ?status ;\n    nkod:format ?format ;\n    nkod:periodicity ?periodicity ;\n    nkod:data_correctness ?data_correctness .\n  \n  ?record a dcat:CatalogRecord;\n    foaf:primaryTopic ?dataset ;\n    dcterms:language <http://publications.europa.eu/resource/authority/language/SVK>;\n    dcterms:conformsTo <https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/201-0> ;\n    dcterms:source ?source .\n} \nWHERE { \n  BIND(\"https://data.gov.sk/\" AS ?base)\n  BIND(CONCAT(?base, \"set/dataset/\") AS ?dataset_base)\n  BIND(CONCAT(?base, \"set/dataset-record/\") AS ?record_base)\n  BIND(CONCAT(?base, \"id/legal-subject/\") AS ?org_base)\n  \n  ?root a nkod:Data ;\n    nkod:data/nkod:result ?dataset_source .\n  \n  ?dataset_source dcterms:title ?title ;\n                  nkod:id ?id .\n  BIND(IRI(CONCAT(\"https://data.gov.sk/api/3/action/package_show?id=\", ?id)) AS ?source)\n  BIND(IRI(CONCAT(?dataset_base, ?id)) AS ?dataset)\n  BIND(IRI(CONCAT(?record_base, ?id)) AS ?record)\n  \n  OPTIONAL { \n    ?dataset_source dcterms:description ?description .\n  }\n  OPTIONAL { \n    ?dataset_source nkod:metadata_created ?mdcreated .\n    BIND(STRDT(?mdcreated, xsd:dateTime) AS ?issued)\n  }\n  OPTIONAL { \n    ?dataset_source nkod:metadata_modified ?mdmodified .\n    BIND(STRDT(?mdmodified, xsd:dateTime) AS ?modified)\n  }\n  OPTIONAL { \n    ?dataset_source nkod:tags/nkod:name ?kw .\n    BIND(STRLANG(?kw, \"sk\") AS ?keyword)\n  }\n  OPTIONAL { \n    ?dataset_source dcterms:license ?license .\n  }\n  OPTIONAL {\n    ?dataset_source nkod:spatial ?gjsn .\n    BIND(IRI(CONCAT(STR(?dataset), \"/spatial/\", MD5(?gjsn))) AS ?spatial)\n    BIND(STRDT(?gjsn, geo:geoJSONLiteral) AS ?geoJSON)\n  }\n  OPTIONAL {\n   ?dataset_source nkod:organization ?org .\n    ?org dcterms:title ?publisher_name ;\n         nkod:name ?orgid .\n    OPTIONAL {?org nkod:orgURI ?orgURI . }\n    OPTIONAL {?org nkod:orgName ?newPubName . }\n    \n    BIND(COALESCE(?newPubName, ?publisher_name) AS ?pname)\n    BIND(IF(BOUND(?orgURI), ?orgURI, IRI(CONCAT(?org_base, ?orgid))) AS ?publisher)\n  }\n  OPTIONAL {\n    ?dataset_source nkod:resources ?resource .\n    \n    ?resource nkod:id ?rid .\n    \n    BIND(IRI(CONCAT(?base, \"set/distribution/\", ?id, \"/\", ?rid)) AS ?distribution)\n    OPTIONAL {\n     ?resource nkod:url ?url .\n      BIND(IRI(?url) AS ?accessURL)\n    }\n    OPTIONAL {\n     ?resource nkod:name ?rname .\n      BIND(STRLANG(?rname, \"sk\") AS ?dname)\n    }\n    OPTIONAL {\n     ?resource nkod:description ?rdescription .\n      FILTER(STRLEN(?rdescription) > 0)\n      BIND(STRLANG(?rdescription, \"sk\") AS ?ddescription)\n    }\n    OPTIONAL {\n     ?resource nkod:schema ?schema .\n      BIND(IRI(?schema) AS ?dconformsTo)\n    }\n    OPTIONAL {\n     ?resource nkod:status ?status .\n    }\n    OPTIONAL {\n     ?resource nkod:format ?format .\n    }\n    OPTIONAL {\n     ?resource nkod:periodicity ?periodicity .\n    }\n    OPTIONAL {\n     ?resource nkod:data_correctness ?data_correctness .\n    }\n  }\n}"
+      "@value" : "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX adms: <http://www.w3.org/ns/adms#>\nPREFIX geo: <http://www.opengis.net/ont/geosparql#>\nPREFIX locn: <http://www.w3.org/ns/locn#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\n\nPREFIX nkod: <https://data.gov.sk/slovník/nkod/>\n\nCONSTRUCT { \n  ?dataset a dcat:Dataset ;\n    dcterms:title ?title ;\n    dcterms:description ?description ;\n    dcat:keyword ?keyword ;\n    dcterms:identifier ?id ;\n    dcterms:issued ?issued ;\n    dcterms:modified ?modified ;\n    dcterms:isPartOf ?series .\n  \n  ?series dcterms:hasPart ?dataset .\n  \n  ?dataset dcterms:spatial ?spatial .\n  ?spatial a dcterms:Location ;\n  \tlocn:geometry ?geoJSON .\n  \n  ?dataset dcterms:publisher ?publisher .\n  ?publisher a foaf:Agent ;\n    foaf:name ?pname .\n  \n  ?dataset dcat:distribution ?distribution .\n  ?distribution a dcat:Distribution ;\n    dcat:accessURL ?accessURL ;\n    dcat:downloadURL ?accessURL ;\n    dcterms:title ?dname ;\n    dcterms:description ?ddescription ;\n    dcterms:license ?license ;\n    dcterms:conformsTo ?dconformsTo ;\n    \n    nkod:status ?status ;\n    nkod:format ?format ;\n    nkod:periodicity ?periodicity ;\n    nkod:data_correctness ?data_correctness .\n  \n  ?record a dcat:CatalogRecord;\n    foaf:primaryTopic ?dataset ;\n    dcterms:language <http://publications.europa.eu/resource/authority/language/SVK>;\n    dcterms:conformsTo <https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/201-0> ;\n    dcterms:source ?source .\n} \nWHERE { \n  BIND(\"https://data.gov.sk/\" AS ?base)\n  BIND(CONCAT(?base, \"set/dataset/\") AS ?dataset_base)\n  BIND(CONCAT(?base, \"set/dataset-record/\") AS ?record_base)\n  BIND(CONCAT(?base, \"id/legal-subject/\") AS ?org_base)\n  \n#  ?root a nkod:Data ;\n#    nkod:data/nkod:result ?dataset_source .\n  \n  ?dataset_source dcterms:title ?title ;\n                  nkod:type \"dataset\";\n                  nkod:id ?id .\n  BIND(IRI(CONCAT(\"https://data.gov.sk/api/3/action/package_show?id=\", ?id)) AS ?source)\n  BIND(IRI(CONCAT(?dataset_base, ?id)) AS ?dataset)\n  BIND(IRI(CONCAT(?record_base, ?id)) AS ?record)\n  \n  OPTIONAL { \n    ?dataset_source nkod:inSeries ?series .\n  }\n  OPTIONAL { \n    ?dataset_source dcterms:description ?description .\n  }\n  OPTIONAL { \n    ?dataset_source nkod:metadata_created ?mdcreated .\n    BIND(STRDT(?mdcreated, xsd:dateTime) AS ?issued)\n  }\n  OPTIONAL { \n    ?dataset_source nkod:metadata_modified ?mdmodified .\n    BIND(STRDT(?mdmodified, xsd:dateTime) AS ?modified)\n  }\n  OPTIONAL { \n    ?dataset_source nkod:tags/nkod:name ?kw .\n    BIND(STRLANG(?kw, \"sk\") AS ?keyword)\n  }\n  OPTIONAL { \n    ?dataset_source dcterms:license ?license .\n  }\n  OPTIONAL {\n    ?dataset_source nkod:spatial ?gjsn .\n    BIND(IRI(CONCAT(STR(?dataset), \"/spatial/\", MD5(?gjsn))) AS ?spatial)\n    BIND(STRDT(?gjsn, geo:geoJSONLiteral) AS ?geoJSON)\n  }\n  OPTIONAL {\n   ?dataset_source nkod:organization ?org .\n    ?org dcterms:title ?publisher_name ;\n         nkod:name ?orgid .\n    OPTIONAL {?org nkod:orgURI ?orgURI . }\n    OPTIONAL {?org nkod:orgName ?newPubName . }\n    \n    BIND(COALESCE(?newPubName, ?publisher_name) AS ?pname)\n    BIND(IF(BOUND(?orgURI), ?orgURI, IRI(CONCAT(?org_base, ?orgid))) AS ?publisher)\n  }\n  OPTIONAL {\n    ?dataset_source nkod:resources ?resource .\n    \n    ?resource nkod:id ?rid .\n    \n    BIND(IRI(CONCAT(?base, \"set/distribution/\", ?id, \"/\", ?rid)) AS ?distribution)\n    OPTIONAL {\n     ?resource nkod:url ?url .\n      BIND(IRI(?url) AS ?accessURL)\n    }\n    OPTIONAL {\n     ?resource nkod:name ?rname .\n      BIND(STRLANG(?rname, \"sk\") AS ?dname)\n    }\n    OPTIONAL {\n     ?resource nkod:description ?rdescription .\n      FILTER(STRLEN(?rdescription) > 0)\n      BIND(STRLANG(?rdescription, \"sk\") AS ?ddescription)\n    }\n    OPTIONAL {\n     ?resource nkod:schema ?schema .\n      BIND(IRI(?schema) AS ?dconformsTo)\n    }\n    OPTIONAL {\n     ?resource nkod:status ?status .\n    }\n    OPTIONAL {\n     ?resource nkod:format ?format .\n    }\n    OPTIONAL {\n     ?resource nkod:periodicity ?periodicity .\n    }\n    OPTIONAL {\n     ?resource nkod:data_correctness ?data_correctness .\n    }\n  }\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2120,6 +2485,24 @@
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/022b-8ecc/configuration"
 }, {
   "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/13e7-a227/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-textHolder#content" : [ {
+      "@value" : "Dataset,Série,Názov,Organizácia\nhttps://data.gov.sk/dataset/mirri-objednavky-2021-06-16,mirri-objednavky,MIRRI Objednávky,\nhttps://data.gov.sk/dataset/mirri-objednavky-2022-03-15,mirri-objednavky,MIRRI Objednávky,\nhttps://data.gov.sk/dataset/d9277a9f-45e5-4f69-a3f8-204a36f2c42e,sshr-objednavky,SŠHR SR Objednávky,Správa štátnych hmotných rezerv SR\nhttps://data.gov.sk/dataset/6623e3df-a578-4109-9d8d-28e0754cada3,sshr-objednavky,SŠHR SR Objednávky,Správa štátnych hmotných rezerv SR\nhttps://data.gov.sk/dataset/2807621b-e3bf-4a89-8281-954704d2f5e9,sshr-objednavky,SŠHR SR Objednávky,Správa štátnych hmotných rezerv SR\nhttps://data.gov.sk/dataset/7ea7691b-4425-4e01-a791-3b4dbc8f8479,sshr-objednavky,SŠHR SR Objednávky,Správa štátnych hmotných rezerv SR\nhttps://data.gov.sk/dataset/94a278c3-bd3d-44fc-a925-27ce9cea4802,sshr-faktury,SŠHR SR Faktúry,Správa štátnych hmotných rezerv SR\nhttps://data.gov.sk/dataset/d26b357f-500c-499f-9fd4-523a02e8d3d4,sshr-faktury,SŠHR SR Faktúry,Správa štátnych hmotných rezerv SR\nhttps://data.gov.sk/dataset/fb8723da-c5ca-4810-a453-02fa1e3f8764,sshr-faktury,SŠHR SR Faktúry,Správa štátnych hmotných rezerv SR\nhttps://data.gov.sk/dataset/34395a64-bb7f-4a51-8487-d61378e1b08d,sshr-faktury,SŠHR SR Faktúry,Správa štátnych hmotných rezerv SR\nhttps://data.gov.sk/dataset/e8434488-c6e3-4642-a088-e1d019f10fdb,sshr-faktury,SŠHR SR Faktúry,Správa štátnych hmotných rezerv SR\nhttps://data.gov.sk/dataset/48691ce3-f306-4569-80fc-cdbfca95c5f5,ruvz-vk-faktury,RÚVZ Veľký Krtíš Faktúry,\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/9058613d-fd6c-4d2d-9706-0d4a3d63d536,ruvz-vk-faktury,RÚVZ Veľký Krtíš Faktúry,\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/70749cf7-9e0c-4201-b0b8-8f0110be660e,ruvz-vk-faktury,RÚVZ Veľký Krtíš Faktúry,\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/d90d9ccc-4642-4824-b52f-f5ae7ec0661e,ruvz-vk-faktury,RÚVZ Veľký Krtíš Faktúry,\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/15684f0d-15a7-4587-a978-e9101308880c,ruvz-vk-faktury,RÚVZ Veľký Krtíš Faktúry,\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/9e072845-e686-47a0-a0ae-5c4cc4247c0c,ruvz-vk-faktury,RÚVZ Veľký Krtíš Faktúry,\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/13abd58b-dbc1-46ed-9deb-10d598751704,ruvzvk-faktury,RÚVZ Veľký Krtíš Faktúry,\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/b21d66df-aafb-4e57-8a29-68b88816e2c2,\"ruvz-vk-register odbornej sposobilosti \npotrviny a pokrmy\",\"RÚVZ Veľký Krtíš Register odbornej \nspôsobilosti za potraviny a pokrmy\",\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/8e426dc7-6ac5-4d60-a20d-d3ade93214b5,\"ruvz-vk-register odbornej sposobilosti \npotrviny a pokrmy\",\"RÚVZ Veľký Krtíš Register odbornej \nspôsobilosti za potraviny a pokrmy\",\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/2cf603b8-780d-4d7b-ae36-70c4d006215a,\"ruvz-vk-register odbornej sposobilosti \npotrviny a pokrmy\",\"RÚVZ Veľký Krtíš Register odbornej \nspôsobilosti za potraviny a pokrmy\",\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/7c3d4ed7-8395-4414-9e76-1a982a0c54f8,\"ruvz-vk-register odbornej sposobilosti \npotrviny a pokrmy\",\"RÚVZ Veľký Krtíš Register odbornej \nspôsobilosti za potraviny a pokrmy\",\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/91bb8a3d-ae5b-438c-9e2a-a1687f936357,\"ruvz-vk-register odbornej sposobilosti \npotrviny a pokrmy\",\"RÚVZ Veľký Krtíš Register odbornej \nspôsobilosti za potraviny a pokrmy\",\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/27da0953-c5e2-4b19-b809-21cc67ff4d6f,\"ruvz-vk-register odbornej sposobilosti \npotrviny a pokrmy\",\"RÚVZ Veľký Krtíš Register odbornej \nspôsobilosti za potraviny a pokrmy\",\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/322a329f-65ed-4d42-94ae-6195bef96955,\"ruvz-vk-register odbornej sposobilosti \npotrviny a pokrmy\",\"RÚVZ Veľký Krtíš Register odbornej \nspôsobilosti za potraviny a pokrmy\",\"Regionálny úrad verejného zdravotníctva\nso sídlom vo Veľkom Krtíši\"\nhttps://data.gov.sk/dataset/33302916-771a-4bf1-a25f-839842e9e929,štatistická klasifikácia odborov vzdelania,\"ŠÚ SR Štatistická klasifikácia doborov \nvzdelania\",Štatistický úrad SR\nhttps://data.gov.sk/dataset/18c284bf-9746-4182-8fe6-af89847c302a,štatistická klasifikácia odborov vzdelania,\"ŠÚ SR Štatistická klasifikácia doborov \nvzdelania\",Štatistický úrad SR\nhttps://data.gov.sk/dataset/90145ef8-ccf8-41b7-961d-f4da7847d070,štatistická klasifikácia odborov vzdelania,\"ŠÚ SR Štatistická klasifikácia doborov \nvzdelania\",Štatistický úrad SR\nhttps://data.gov.sk/dataset/3133c58c-2be2-44a5-8606-6d3de071b2e2,štatistická klasifikácia odborov vzdelania,\"ŠÚ SR Štatistická klasifikácia doborov \nvzdelania\",Štatistický úrad SR\nhttps://data.gov.sk/dataset/249ec54a-b345-4f76-bd05-87d8a4f94e64,štatistická klasifikácia odborov vzdelania,\"ŠÚ SR Štatistická klasifikácia doborov \nvzdelania\",Štatistický úrad SR\nhttps://data.gov.sk/dataset/50b625c3-dd45-44dc-a35a-91f4a2cde809,\"štatistická klasifikácia produktov podľa \nčinností (CPA)\",\"ŠÚ SR Štatistická klasifikácia produktov \npodľa činností (CPA) \",Štatistický úrad SR\nhttps://data.gov.sk/dataset/76aa99da-f0b7-47fd-8766-80823e1d9812,\"štatistická klasifikácia produktov podľa \nčinností (CPA)\",\"ŠÚ SR Štatistická klasifikácia produktov \npodľa činností (CPA) \",Štatistický úrad SR\nhttps://data.gov.sk/dataset/edfb4a03-da75-43db-9fd7-dae9527e0216,ruvz-to-objednávky,\"RÚVZ Topoľčany Objednávky tovarov\na služieb\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/e49a5594-baf7-4c66-9a3f-0a0fc881443e,ruvz-to-objednávky,\"RÚVZ Topoľčany Objednávky tovarov\na služieb\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/04ecdd70-2fa4-4c6b-8705-3ccd2da28e6f,ruvz-to-objednávky,\"RÚVZ Topoľčany Objednávky tovarov\na služieb\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/18bd3b04-463c-494b-93f4-ae8e4dbacc17,ruvz-to-objednávky,\"RÚVZ Topoľčany Objednávky tovarov\na služieb\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/7dbaac9f-afa7-4d74-ac5a-c77722b5868c,ruvz-to-objednávky,\"RÚVZ Topoľčany Objednávky tovarov\na služieb\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/a3be57b8-23b7-4b92-a10c-256f74af90d8,ruvz-to-objednávky,\"RÚVZ Topoľčany Objednávky tovarov\na služieb\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/251243f8-1878-4967-8d6d-f03caf1d9e58,ruvz-to-objednávky,\"RÚVZ Topoľčany Objednávky tovarov\na služieb\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/569c328e-b3a5-4876-9eb2-cb4479b9121d,ruvz-to-objednávky,\"RÚVZ Topoľčany Objednávky tovarov\na služieb\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/057fb837-3bca-46b3-ac0e-dd52b79ace37,ruvz-to-faktury,\"RÚVZ Topoľčany faktúry za tovary\na služby\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/a0a25cf3-0ab5-40e1-a0de-375d5c3835bd,ruvz-to-faktury,\"RÚVZ Topoľčany faktúry za tovary\na služby\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/ff85ce15-0393-4baa-ab29-34b811909e55,ruvz-to-faktury,\"RÚVZ Topoľčany faktúry za tovary\na služby\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/2e07cc19-0945-420b-a2e6-0f61810dc8b3,ruvz-to-faktury,\"RÚVZ Topoľčany faktúry za tovary\na služby\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/ffc9e5ec-1b7d-47e0-898b-8ae58f63dcf6,ruvz-to-faktury,\"RÚVZ Topoľčany faktúry za tovary\na služby\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/65b337e4-78cb-4fe8-959b-0df25f790a6b,ruvz-to-faktury,\"RÚVZ Topoľčany faktúry za tovary\na služby\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/771e55c0-5adc-4364-bb5d-58decd223afc,ruvz-to-faktury,\"RÚVZ Topoľčany faktúry za tovary\na služby\",\"Regionálny úrad verejného zdravotníctva\nTopoľčany\"\nhttps://data.gov.sk/dataset/955ee8b5-11af-4397-a215-3147700da648,ruvz-tn-objednavky,\"RÚVZ Trenčín objednávky za \ntovary a služby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/20846874-5433-4664-afca-f36755a9f600,ruvz-tn-objednavky,\"RÚVZ Trenčín objednávky za \ntovary a služby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/1548c214-6dbb-46ba-ba43-f12d7fe1b424,ruvz-tn-objednavky,\"RÚVZ Trenčín objednávky za \ntovary a služby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/f8c56787-d079-4c18-9588-66be353c9857,ruvz-tn-objednavky,\"RÚVZ Trenčín objednávky za \ntovary a služby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/2c6c05cf-9212-4529-b576-e218f582ca3e,ruvz-tn-objednavky,\"RÚVZ Trenčín objednávky za \ntovary a služby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/7a876701-2ffa-4450-a39f-13041eab5486,ruvz-tn-objednavky,\"RÚVZ Trenčín objednávky za \ntovary a služby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/cf7516bf-3120-4bbf-8ae7-bbf56366b675,ruvz-tn-faktury,\"RÚVZ Trenčín faktúry za \ntovary a služby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/247737fb-a6b3-4c0b-b98c-6330afedd048,ruvz-tn-faktury,\"RÚVZ Trenčín faktúry za \ntovary a služby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/1e16f0d0-177e-4514-845e-b3b31d06ff32,ruvz-tn-faktury,\"RÚVZ Trenčín faktúry za \ntovary a služby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/252f967a-756d-448e-9e6b-803d476e2292,ruvz-tn-faktury,\"RÚVZ Trenčín faktúry za \ntovary a služby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/eaf9658c-b2fe-4683-9ff1-1a6991da3254,ruvz-tn-faktury,\"RÚVZ Trenčín faktúry za \ntovary a služby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/67b8f68a-3bb3-4149-b491-466b90d08951,\"ruvz-tn-sposobilost na pracu s toxickymi \nlatkami a pripravkami\",\"RÚVZ Trenčín Register odbornej spôsobilosti osôb\nna prácu s toxickými látkami a prípravkami a s toxickými\nlátkami a prípravkami\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/95346035-0b33-4eb1-9cf4-86a73290662b,\"ruvz-tn-sposobilost na pracu s toxickymi \nlatkami a pripravkami\",\"RÚVZ Trenčín Register odbornej spôsobilosti osôb\nna prácu s toxickými látkami a prípravkami a s toxickými\nlátkami a prípravkami\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/775738e1-592f-46c4-8f28-0f0ac62c2236,\"ruvz-tn-sposobilost na pracu s toxickymi \nlatkami a pripravkami\",\"RÚVZ Trenčín Register odbornej spôsobilosti osôb\nna prácu s toxickými látkami a prípravkami a s toxickými\nlátkami a prípravkami\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/bbc29546-a59f-46d0-864f-58c8a94a3fb0,\"ruvz-tn-sposobilost na prevadzkovanie pohrebiska,\npohrebnej sluzby krematorii\",\"RÚVZ Trenčín Register odborne spôsobilých osôb na \nprevádzkovanie pohrebiska, prevádzkovanie pohrebnej\nslužby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/5cd0e510-9ef9-4297-bae5-155d68e6f90a,\"ruvz-tn-sposobilost na prevadzkovanie pohrebiska,\npohrebnej sluzby krematorii\",\"RÚVZ Trenčín Register odborne spôsobilých osôb na \nprevádzkovanie pohrebiska, prevádzkovanie pohrebnej\nslužby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/789e0bea-3c7e-4738-9f85-18652df8fbdb,\"ruvz-tn-sposobilost na prevadzkovanie pohrebiska,\npohrebnej sluzby krematorii\",\"RÚVZ Trenčín Register odborne spôsobilých osôb na \nprevádzkovanie pohrebiska, prevádzkovanie pohrebnej\nslužby\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/00071544-c2ed-48d2-a7b9-56598de6f32a,\"ruvz-tn-odborne sposobile osoby na epidemiologicky\nzavazne cinnosti v zariadeniach starostlivosti\no ludske telo\",\"RÚVZ Trenčín Register odborne spôsobilých osôb na \nepidemiologicky závažné činnosti v zariadeniach\nstarostlivosti o ľudské telo\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/cffdb1c1-71f6-42e0-ba9d-acaec8bedd8e,\"ruvz-tn-odborne sposobile osoby na epidemiologicky\nzavazne cinnosti v zariadeniach starostlivosti\no ludske telo\",\"RÚVZ Trenčín Register odborne spôsobilých osôb na \nepidemiologicky závažné činnosti v zariadeniach\nstarostlivosti o ľudské telo\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/bea26708-8e15-44bd-baab-7ded220d49e1,\"ruvz-tn-odborne sposobile osoby na epidemiologicky\nzavazne cinnosti v zariadeniach starostlivosti\no ludske telo\",\"RÚVZ Trenčín Register odborne spôsobilých osôb na \nepidemiologicky závažné činnosti v zariadeniach\nstarostlivosti o ľudské telo\",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/700f569a-7c7f-41a4-a5c4-b8d3309c2285,\"ruvz-tn-odborne sposobile osoby na epidemiologicky\nzavazne cinnosti pri vyrobe, manipulacii a uvadzani\ndo obehu potravin a pokrmov \",\"RÚVZ Trenčín Register odborne spôsobilých osôb na \nepidemiologicky závažné činnosti pri výrobe, manipulácii \na uvádzaní do obehu potravín a pokrmov \",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/7db638aa-13d6-442a-838c-df5b80a0bbef,\"ruvz-tn-odborne sposobile osoby na epidemiologicky\nzavazne cinnosti pri vyrobe, manipulacii a uvadzani\ndo obehu potravin a pokrmov \",\"RÚVZ Trenčín Register odborne spôsobilých osôb na \nepidemiologicky závažné činnosti pri výrobe, manipulácii \na uvádzaní do obehu potravín a pokrmov \",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/cf3cd0c5-4a55-4a4a-b5f8-edeee57f4942,\"ruvz-tn-odborne sposobile osoby na epidemiologicky\nzavazne cinnosti pri vyrobe, manipulacii a uvadzani\ndo obehu potravin a pokrmov \",\"RÚVZ Trenčín Register odborne spôsobilých osôb na \nepidemiologicky závažné činnosti pri výrobe, manipulácii \na uvádzaní do obehu potravín a pokrmov \",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/2c8e80b8-7661-4e14-9dc9-e9af7f018738,\"ruvz-tn-odborne sposobile osoby na epidemiologicky \nzavazne cinnosti v upravniach vody a pri obsluhe \nvodovodných zariadení\",\"RÚVZ Trenčín Register odborne spôsobilých osôb na \nepidemiologicky závažné činnosti v úpravniach vody a \npri obsluhe vodovodných zariadení \",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/335fdf24-6525-452b-a42e-9985bd210cee,\"ruvz-tn-odborne sposobile osoby na epidemiologicky \nzavazne cinnosti v upravniach vody a pri obsluhe \nvodovodných zariadení\",\"RÚVZ Trenčín Register odborne spôsobilých osôb na \nepidemiologicky závažné činnosti v úpravniach vody a \npri obsluhe vodovodných zariadení \",\"Regionálny úrad verejného zdravotníctva\nTrenčín\"\nhttps://data.gov.sk/dataset/e87a8d3a-981a-4644-aa40-6b7f24a2b7e1,nbu-objedavky,NBÚ Objednávky,Národný bezpečnostný úrad\nhttps://data.gov.sk/dataset/80a0a30f-0f93-46d8-b37d-d81a449d4e3a,nbu-objedavky,NBÚ Objednávky,Národný bezpečnostný úrad\nhttps://data.gov.sk/dataset/9a365197-3a01-4444-8949-9c42a3b48b99,ruvz-pb-faktury za tovary sluzby,RÚVZ Považská Bystrica Fatkúry za tovary a služby,\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/5be47de1-d2da-4d84-883b-f505890a319f,ruvz-pb-faktury za tovary sluzby,RÚVZ Považská Bystrica Fatkúry za tovary a služby,\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/e29c1c64-1e18-463c-a5b4-6bcbd7a1565c,ruvz-pb-faktury za tovary sluzby,RÚVZ Považská Bystrica Fatkúry za tovary a služby,\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/261101cc-ee2a-4688-b04b-ab3bdca8f156,ruvz-pb-obejdavky tovarov a sluzieb,RÚVZ Považská Bystrica Objednávky tovarov a služieb,\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/1abc0c03-e39d-465d-8b16-a3e7311ab64a,ruvz-pb-obejdavky tovarov a sluzieb,RÚVZ Považská Bystrica Objednávky tovarov a služieb,\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/c0e9ac89-c975-4982-9d62-95cc27b90bb5,ruvz-pb-obejdavky tovarov a sluzieb,RÚVZ Považská Bystrica Objednávky tovarov a služieb,\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/f551f7be-f742-4af7-880d-8bd1a47a4dd4,ruvz-pb-sposobile osoby - potraviny a pokrmy,\"RÚVZ Považská Bystrica Register spôsobilých osôb\n- potraviny a pokrmy\",\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/e7bc9312-db42-499f-8f65-7734b0e0992b,ruvz-pb-sposobile osoby - potraviny a pokrmy,\"RÚVZ Považská Bystrica Register spôsobilých osôb\n- potraviny a pokrmy\",\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/85270044-04a6-4191-bdf7-359eca1aedd5,ruvz-pb-sposobile osoby - potraviny a pokrmy,\"RÚVZ Považská Bystrica Register spôsobilých osôb\n- potraviny a pokrmy\",\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/6ad9e4eb-6786-4ac4-9b81-d8da235ff428,ruvz-pb-sposobile osoby - starostlivost o ludske telo,\"RÚVZ Považská Bystrica Register spôsobilých osôb\n- starostlivosť o ľudské telo\",\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/cf311ea2-39cb-44f2-834f-dd3d49b479e1,ruvz-pb-sposobile osoby - starostlivost o ludske telo,\"RÚVZ Považská Bystrica Register spôsobilých osôb\n- starostlivosť o ľudské telo\",\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/6c7d50b7-e7ea-4e7b-9d69-25b45b03a85c,ruvz-pb-sposobile osoby - starostlivost o ludske telo,\"RÚVZ Považská Bystrica Register spôsobilých osôb\n- starostlivosť o ľudské telo\",\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/2a013ce5-5516-4a8d-84e2-89aec63b7207,\"ruvz-pb-sposobile osoby - voda, vodovody\",\"RÚVZ Považská Bystrica Register spôsobilých osôb\n- voda, vodovody\",\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/91fae4cf-52ac-4ae5-86a6-19065dbe389e,\"ruvz-pb-sposobile osoby - voda, vodovody\",\"RÚVZ Považská Bystrica Register spôsobilých osôb\n- voda, vodovody\",\"Regionálny úrad verejného zdravotníctva \nPovažská Bystrica\"\nhttps://data.gov.sk/dataset/c32d0fde-c8ab-42c9-b78c-3679c56da464,ruvz-nr-objednavky tovarov a sluzieb ,RÚVZ Nitra Objednávky tovarov a služieb RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/a612cd2d-9a40-4392-b695-95f80bb97e98,ruvz-nr-objednavky tovarov a sluzieb ,RÚVZ Nitra Objednávky tovarov a služieb RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/f832eeb1-abc8-42e1-9fb5-aedc0771ae13,ruvz-nr-objednavky tovarov a sluzieb ,RÚVZ Nitra Objednávky tovarov a služieb RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/db751faf-682c-455c-90aa-33fba69324a5,ruvz-nr-objednavky tovarov a sluzieb ,RÚVZ Nitra Objednávky tovarov a služieb RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/ab747629-e6e1-48a6-9b9e-f2e4c43113fd,ruvz-nr-objednavky tovarov a sluzieb ,RÚVZ Nitra Objednávky tovarov a služieb RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/267ffde6-736d-4654-908e-1d03a05d80f3,ruvz-nr-objednavky tovarov a sluzieb ,RÚVZ Nitra Objednávky tovarov a služieb RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/cd6c5c59-e322-457e-9d7b-d70a47027297,ruvz-nr-objednavky tovarov a sluzieb ,RÚVZ Nitra Faktúry za tovary a služby RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/e6adf2f2-3e7c-4864-9b37-65c7c67ce72d,ruvz-nr-faktura za tovary a sluzby,RÚVZ Nitra Faktúry za tovary a služby RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/1f13bfcb-9067-4dcd-ba47-55b79812b75f,ruvz-nr-faktura za tovary a sluzby,RÚVZ Nitra Faktúry za tovary a služby RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/a01cf5a1-aa5f-4a83-b7ed-c5eee39128e5,ruvz-nr-faktura za tovary a sluzby,RÚVZ Nitra Faktúry za tovary a služby RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/05903eff-815b-4cb5-8aeb-d77e24332716,ruvz-nr-faktura za tovary a sluzby,RÚVZ Nitra Faktúry za tovary a služby RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/ed5f224a-40da-442c-821f-705b9af41c56,ruvz-nr-faktura za tovary a sluzby,RÚVZ Nitra Faktúry za tovary a služby RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/a5acc165-5cd4-4827-a20e-87df97adead4,ruvz-nr-faktura za tovary a sluzby,RÚVZ Nitra Faktúry za tovary a služby RÚVZ,\"Regionálny úrad verejného zdravotníctva\nNitra\"\nhttps://data.gov.sk/dataset/8aa6ab47-4530-4317-a831-3e1c779ec720,ruvz-kn-fatkruy,RÚVZ Komárno Faktúry,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/7d1c7201-2d7c-42da-bc46-11e62f727e3f,ruvz-kn-fatkruy,RÚVZ Komárno Faktúry,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/bc91a59c-6769-468b-bb64-fef95c393b04,ruvz-kn-fatkruy,RÚVZ Komárno Faktúry,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/b7f5fc40-0dc7-4fda-a1a7-d2a6ceaa1a75,ruvz-kn-fatkruy,RÚVZ Komárno Faktúry,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/9a6d5252-7e73-43e2-bfb5-b614a4c5c41e,ruvz-kn-fatkruy,RÚVZ Komárno Faktúry,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/d83694e2-5bb0-4bbc-a096-a858b406f9b2,ruvz-kn-fatkruy,RÚVZ Komárno Faktúry,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/c83df5a0-b815-4380-ae8f-bc490f1d1308,ruvz-kn-fatkruy,RÚVZ Komárno Faktúry,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/e6e8094d-21de-4005-bee5-9081fa217fa3,ruvz-kn-fatkruy,RÚVZ Komárno Faktúry,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/5ce7ca08-45d4-4f38-b460-97b88d8bc457,ruvz-kn-faktury za tovar a sluzby (projekt),RÚVZ Komárno Faktúry za tovar a služby (Projekt),\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/fc0a55b4-c961-437b-a6b7-060c04ac41ae,ruvz-kn-faktury za tovar a sluzby (projekt),RÚVZ Komárno Faktúry za tovar a služby (Projekt),\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/8fff1694-ce84-4fd8-9c6c-0db3a4343fc7,ruvz-kn-objedavky,RÚVZ Komárno Objednávky,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/f03357c8-d4dd-4a82-b013-c5f7630a3b7f,ruvz-kn-objedavky,RÚVZ Komárno Objednávky,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/c96dd81a-23a0-484f-ae7a-430a8b67a1d0,ruvz-kn-objedavky,RÚVZ Komárno Objednávky,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/370cd6bc-da95-4646-a8b4-b030c7b79958,ruvz-kn-objedavky,RÚVZ Komárno Objednávky,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/e6ce0bfc-db15-4039-8183-34eddb3bd483,ruvz-kn-objedavky,RÚVZ Komárno Objednávky,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/ed83334f-ce51-410d-be08-19779db1dbdf,ruvz-kn-objedavky,RÚVZ Komárno Objednávky,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/75efd73e-84a2-4e10-9812-3d749ac7bef3,ruvz-kn-objedavky,RÚVZ Komárno Objednávky,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/42ad5bc4-4fa4-40c6-b478-f66c54b3d412,ruvz-kn-objedavky,RÚVZ Komárno Objednávky,\"Regionálny úrad verejného zdravotníctva\nKomárno\"\nhttps://data.gov.sk/dataset/23bc36d1-e0c1-4cc9-96b6-e651717c0c2f,mk-sr-ziadosti o dotacie,MK SR Žiadosti o dotácie,Ministerstvo kultúry SR\nhttps://data.gov.sk/dataset/8928ab61-197b-4335-8a45-08fd342fe47f,mk-sr-ziadosti o dotacie,MK SR Žiadosti o dotácie,Ministerstvo kultúry SR\nhttps://data.gov.sk/dataset/918bc4ea-4120-4025-886b-8a720a90a249,mk-sr-ziadosti o dotacie,MK SR Žiadosti o dotácie,Ministerstvo kultúry SR\nhttps://data.gov.sk/dataset/f676b54f-3bae-4fce-801f-ccccb2234927,mk-sr-ziadosti o dotacie,MK SR Žiadosti o dotácie,Ministerstvo kultúry SR\nhttps://data.gov.sk/dataset/8da72244-92f3-41c8-b68b-fd5c2118f640,mk-sr-ziadosti o dotacie,MK SR Žiadosti o dotácie,Ministerstvo kultúry SR\nhttps://data.gov.sk/dataset/7f84d70d-93a7-4de0-9094-62d6d616e1b1,mk-sr-ziadosti o dotacie,MK SR Žiadosti o dotácie,Ministerstvo kultúry SR\nhttps://data.gov.sk/dataset/5cf4f9be-81b0-4a3f-8618-d006b49e289e,mk-sr-ziadosti o dotacie,MK SR Žiadosti o dotácie,Ministerstvo kultúry SR\nhttps://data.gov.sk/dataset/e8ca6f67-4a62-4b17-8110-19f9020e4fcb,mk-sr-ziadosti o dotacie,MK SR Žiadosti o dotácie,Ministerstvo kultúry SR\nhttps://data.gov.sk/dataset/c95f9700-18f9-4ae5-b2b9-a76b7ea83a0c,mk-sr-ziadosti o dotacie,MK SR Žiadosti o dotácie,Ministerstvo kultúry SR\nhttps://data.gov.sk/dataset/65393252-536d-4a37-b14e-0babb45237d0,mk-sr-ziadosti o dotacie,MK SR Žiadosti o dotácie,Ministerstvo kultúry SR\nhttps://data.gov.sk/dataset/bbf223e4-8bfd-4e4b-9c12-8e3063e25132,mk-sr-ziadosti o dotacie,MK SR Žiadosti o dotácie,Ministerstvo kultúry SR\nhttps://data.gov.sk/dataset/dab87ab5-d6d1-4b62-8660-d8b3f50c30a2,nr-zoznam poslancov,NR Zoznam poslancov pre volebne obdobie,Kancelária národnej rady\nhttps://data.gov.sk/dataset/7bbfb3f0-14ad-441b-95c6-eb113376a9d2,nr-zoznam poslancov,NR Zoznam poslancov pre volebne obdobie,Kancelária národnej rady\nhttps://data.gov.sk/dataset/a9463abc-eba9-47ad-b63e-f3acced62656,nr-zoznam schodzi,NR Zoznam schodzi pre volebne obdobie,Kancelária národnej rady\nhttps://data.gov.sk/dataset/1d906dd8-a2d9-4ff2-adb9-fdea3af9d084,nr-zoznam schodzi,NR Zoznam schodzi pre volebne obdobie,Kancelária národnej rady\nhttps://data.gov.sk/dataset/984d6cbe-c08a-4d79-84b0-7f8993ea869f,nr-zoznam tlaci,NR Zoznam tlačí pre volebné obdobie,Kancelária národnej rady\nhttps://data.gov.sk/dataset/9703c2c2-d330-4ab4-9825-bb04eb139ea6,nr-zoznam tlaci,NR Zoznam tlačí pre volebné obdobie,Kancelária národnej rady\nhttps://data.gov.sk/dataset/e6b0d085-2658-410a-8941-2bf717b9e690,mz-dotacne schemy,MZ SR Dotačné schémy,Ministerstvo zdravotníctva SR\nhttps://data.gov.sk/dataset/5d8333c3-7b21-43e2-82b8-e3c49577da38,mz-dotacne schemy,MZ SR Dotačné schémy,Ministerstvo zdravotníctva SR"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-textHolder#fileName" : [ {
+      "@value" : "ds-serie.csv"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-textHolder#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/13e7-a227/configuration"
+}, {
+  "@graph" : [ {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/1c9a-a013/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/e-textHolder#content" : [ {
@@ -2156,6 +2539,99 @@
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/2f57-b43a/configuration"
 }, {
   "@graph" : [ {
+    "@id" : "http://etl.linkedpipes.com/resources/components/t-tabular/0.0.0/new/1",
+    "@type" : [ "http://www.w3.org/ns/csvw#Table" ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#baseUri" : [ {
+      "@value" : "urn:"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#baseUriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#dialectControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#encodeType" : [ {
+      "@value" : "default"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#encodeTypeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#fullMapping" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#fullMappingControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#generateNullHeaderNamesControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#normalOutput" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#normalOutputControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#rowLimitControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#skipLines" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "0"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#skipLinesControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#skipOnErrorControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#tableSchemaControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#useBaseUri" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#useBaseUriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://www.w3.org/ns/csvw#dialect" : [ {
+      "@id" : "http://localhost/resources/configuration/dialect"
+    } ],
+    "http://www.w3.org/ns/csvw#tableSchema" : [ {
+      "@id" : "http://localhost/resources/configuration/schema"
+    } ]
+  }, {
+    "@id" : "http://localhost/resources/configuration/dialect",
+    "@type" : [ "http://www.w3.org/ns/csvw#Dialect" ],
+    "http://www.w3.org/ns/csvw#delimeter" : [ {
+      "@value" : ","
+    } ],
+    "http://www.w3.org/ns/csvw#encoding" : [ {
+      "@value" : "UTF-8"
+    } ],
+    "http://www.w3.org/ns/csvw#header" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/ns/csvw#quoteChar" : [ {
+      "@value" : "\""
+    } ],
+    "http://www.w3.org/ns/csvw#trim" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ]
+  }, {
+    "@id" : "http://localhost/resources/configuration/schema",
+    "@type" : [ "http://www.w3.org/ns/csvw#Schema" ],
+    "http://www.w3.org/ns/csvw#aboutUrl" : [ {
+      "@value" : ""
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/3a7e-a95d/configuration"
+}, {
+  "@graph" : [ {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/3f2f-889d/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileName" : [ {
@@ -2172,6 +2648,32 @@
     } ]
   } ],
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/3f2f-889d/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/4c7d-ba12/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#query" : [ {
+      "@value" : "PREFIX nkod: <https://data.gov.sk/slovník/nkod/>\nDELETE WHERE { \n  ?dataset nkod:resources ?resources ;\n      nkod:removeResources true .\n} "
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#softFail" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#softFailControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#threads" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "8"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#threadsControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/4c7d-ba12/configuration"
 }, {
   "@graph" : [ {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/515d-9b08/configuration",
@@ -2335,6 +2837,44 @@
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/7697-97aa/configuration"
 }, {
   "@graph" : [ {
+    "@id" : "http://etl.linkedpipes.com/resources/components/t-chunkedToGraph/0.0.0/new/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-chunkedToGraph#Configuration" ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/76d7-a717/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/798e-a008/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#outputMode" : [ {
+      "@id" : "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#addToChunk"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#outputModeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
+      "@value" : "PREFIX xs: <http://www.w3.org/2001/XMLSchema#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX nkod: <https://data.gov.sk/slovník/nkod/>\n\nCONSTRUCT {   \n  ?dataset nkod:removeResources true .\n  \n  ?newDataset ?p ?o ;\n    nkod:id ?newDatasetId ;\n    dcterms:title ?newDatasetTitle ;\n    nkod:resources ?resource ;\n    nkod:inSeries ?dataset .\n} \nWHERE { \n  ?dataset nkod:id ?datasetId ;\n           nkod:resources ?resource ;\n           dcterms:title ?title ;\n           ?p ?o .\n  ?resource nkod:id ?resourceId ;\n            OPTIONAL {?resource nkod:position ?position . }\n\n  ?row <urn:Dataset> ?mappedDataset .\n\n  BIND(\"https://data.gov.sk/set/dataset/\" AS ?base)\n  BIND(CONCAT(?base, LCASE(?datasetId)) AS ?datasetIriString)\n  FILTER(STRAFTER(?mappedDataset, \"https://data.gov.sk/dataset/\") = STRAFTER(?datasetIriString, ?base))\n\n  BIND(MD5(CONCAT(?datasetId, ?resourceId)) AS ?newDatasetId)\n  BIND(IRI(CONCAT(?base, ?newDatasetId)) AS ?newDataset)\n  BIND(STRLANG(CONCAT(STR(?title), IF(BOUND(?position), CONCAT(\" (\", STR(xs:integer(?position) + 1), \")\"), \"\")), \"sk\") AS ?newDatasetTitle)\n  \n  VALUES ?p {\n#    nkod:owner_org \n    nkod:organization nkod:tags nkod:type\n  }\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#softFail" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#softFailControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#threads" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "8"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#threadsControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/798e-a008/configuration"
+}, {
+  "@graph" : [ {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/8cc9-ab77/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileName" : [ {
@@ -2353,10 +2893,185 @@
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/8cc9-ab77/configuration"
 }, {
   "@graph" : [ {
+    "@id" : "http://etl.linkedpipes.com/resources/components/t-tabular/0.0.0/new/1",
+    "@type" : [ "http://www.w3.org/ns/csvw#Table" ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#baseUri" : [ {
+      "@value" : "urn:"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#baseUriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#dialectControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#encodeType" : [ {
+      "@value" : "default"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#encodeTypeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#fullMapping" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#fullMappingControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#generateNullHeaderNamesControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#normalOutput" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#normalOutputControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#rowLimitControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#skipLines" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "0"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#skipLinesControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#skipOnErrorControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#tableSchemaControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#useBaseUri" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-tabular#useBaseUriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://www.w3.org/ns/csvw#dialect" : [ {
+      "@id" : "http://localhost/resources/configuration/dialect"
+    } ],
+    "http://www.w3.org/ns/csvw#tableSchema" : [ {
+      "@id" : "http://localhost/resources/configuration/schema"
+    } ]
+  }, {
+    "@id" : "http://localhost/resources/configuration/dialect",
+    "@type" : [ "http://www.w3.org/ns/csvw#Dialect" ],
+    "http://www.w3.org/ns/csvw#delimeter" : [ {
+      "@value" : ","
+    } ],
+    "http://www.w3.org/ns/csvw#encoding" : [ {
+      "@value" : "UTF-8"
+    } ],
+    "http://www.w3.org/ns/csvw#header" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/ns/csvw#quoteChar" : [ {
+      "@value" : "\""
+    } ],
+    "http://www.w3.org/ns/csvw#trim" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ]
+  }, {
+    "@id" : "http://localhost/resources/configuration/schema",
+    "@type" : [ "http://www.w3.org/ns/csvw#Schema" ],
+    "http://www.w3.org/ns/csvw#aboutUrl" : [ {
+      "@value" : ""
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/9149-b68f/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/af45-8ad5/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#outputMode" : [ {
+      "@id" : "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#addToChunk"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#outputModeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
+      "@value" : "PREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX nkod: <https://data.gov.sk/slovník/nkod/>\n\nCONSTRUCT {   \n  ?dataset nkod:inSeries ?series .\n\n  ?series ?p ?o ;\n    nkod:id ?seriesId ;\n    dcterms:title ?seriesTitle .\n} \nWHERE { \n  ?dataset nkod:id ?datasetId ;\n           ?p ?o .\n\n  ?row <urn:Dataset> ?mappedDataset ;\n       <urn:S%C3%A9rie> ?seriesIdSource ;\n       <urn:N%C3%A1zov> ?seriesTitleSource .\n\n  BIND(\"https://data.gov.sk/set/dataset/\" AS ?base)\n  BIND(CONCAT(?base, LCASE(?datasetId)) AS ?datasetIriString)\n  FILTER(STRAFTER(?mappedDataset, \"https://data.gov.sk/dataset/\") = STRAFTER(?datasetIriString, ?base))\n\n  BIND(STRLANG(?seriesTitleSource, \"sk\") AS ?seriesTitle)\n  BIND(REPLACE(?seriesIdSource, \"[ \\n\\r\\t]\", \"-\") AS ?seriesId)\n  BIND(IRI(CONCAT(?base, ?seriesId)) AS ?series)\n  BIND(IRI(?uri) AS ?neworg)\n\n  VALUES ?p {\n#    nkod:owner_org \n    nkod:organization nkod:spatial nkod:tags nkod:type\n  }\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#softFail" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#softFailControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#threads" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "8"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#threadsControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/af45-8ad5/configuration"
+}, {
+  "@graph" : [ {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/77",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-chunkedToGraph#Configuration" ]
   } ],
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/bdd1-bb75/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c3ec-bf90/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#query" : [ {
+      "@value" : "PREFIX urn: <http://fliqz.com/>\nPREFIX nkod: <https://data.gov.sk/slovník/nkod/>\nDELETE {\n  ?dataset nkod:organization ?org .\n  \n  ?org ?p ?o .\n} \nINSERT {\n  ?dataset nkod:organization ?neworg .\n  \n  ?neworg ?p ?o .\n}\nWHERE { \n  ?dataset nkod:organization ?org .\n  ?org nkod:type \"organization\" ;\n       nkod:name ?guid ;\n  \t   nkod:orgURI ?neworg ;\n       nkod:orgName ?namesk ;\n       ?p ?o .\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#softFail" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#softFailControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#threads" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "8"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#threadsControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c3ec-bf90/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c8c9-9d05/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-textHolder#content" : [ {
+      "@value" : "Dataset,IČO ,Organizácia\nhttps://data.gov.sk/dataset/05b4e1af-0dfd-4723-aa44-a0a9b3663a56,,\nhttps://data.gov.sk/dataset/6110f988-1fb5-49ab-bcdf-cfbb4d6ee4b7,,\nhttps://data.gov.sk/dataset/3069495d-5423-4798-b9ab-c24e34e44354,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/3c140c76-4252-4dea-ae9f-2fb030a50171,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/044f06e2-bb8c-431f-b08b-520cbcff9be9,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/044f06e2-bb8c-431f-b08b-520cbcff9be9,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/b7fdaa35-4fc1-4b59-b035-04fe7148bf29,30810710,\"Úrad pre normalizáciu, metrológiu a skúšobníctvo Slovenskej republiky\"\nhttps://data.gov.sk/dataset/144377c9-861f-421f-b023-cb2d7ea98ea6,30810710,\"Úrad pre normalizáciu, metrológiu a skúšobníctvo Slovenskej republiky\"\nhttps://data.gov.sk/dataset/88b70b30-95ce-4acf-94b7-b689cf541b58,30810710,\"Úrad pre normalizáciu, metrológiu a skúšobníctvo Slovenskej republiky\"\nhttps://data.gov.sk/dataset/e0cd11c1-2b37-40d9-b803-0696d2221ca1,36038351,\"Lesy Slovenskej republiky, štátny podnik\"\nhttps://data.gov.sk/dataset/5688a9c6-1998-4709-85e5-b452bc8148f2,36038351,\"Lesy Slovenskej republiky, štátny podnik\"\nhttps://data.gov.sk/dataset/d26a855f-fded-48d3-9ff7-4c767f77c67f,36038351,\"Lesy Slovenskej republiky, štátny podnik\"\nhttps://data.gov.sk/dataset/268335d8-ed2a-45f1-aadf-970e7921f587,36038351,\"Lesy Slovenskej republiky, štátny podnik\"\nhttps://data.gov.sk/dataset/79f7bc91-de57-4995-b5fa-925d9cf85186,36038351,\"Lesy Slovenskej republiky, štátny podnik\"\nhttps://data.gov.sk/dataset/799ef84d-8800-4ec9-a9d0-53493106182a,36038351,\"Lesy Slovenskej republiky, štátny podnik\"\nhttps://data.gov.sk/dataset/f5b72536-5632-4a4b-ab98-69c62f9a5f7d,36038351,\"Lesy Slovenskej republiky, štátny podnik\"\nhttps://data.gov.sk/dataset/b3e776d2-4175-4560-9a52-96dfbb70b23e,36038351,\"Lesy Slovenskej republiky, štátny podnik\"\nhttps://data.gov.sk/dataset/75c85eff-d881-4a39-bc7b-c30ecfbc5c37,151513,Úrad vlády SR\nhttps://data.gov.sk/dataset/545da0d2-3ded-42e8-8dae-d270b6fd47ae,151513,Úrad vlády SR\nhttps://data.gov.sk/dataset/b32df1d8-a606-4f14-9309-ef4dfc29c3bf,151513,Úrad vlády SR\nhttps://data.gov.sk/dataset/e786ce4e-abf7-48f4-9024-58cf1cd13506,151513,Úrad vlády SR\nhttps://data.gov.sk/dataset/462089ba-33e7-4b9d-b2b6-e47b962f3460,17336104,Regionálny úrad verejného zdravotníctva Žiar nad Hronom\nhttps://data.gov.sk/dataset/dab5bcb8-98ae-4bf6-86b8-9032070b419a,17336104,Regionálny úrad verejného zdravotníctva Žiar nad Hronom\nhttps://data.gov.sk/dataset/2f620042-4cd9-4b0d-b2b7-fca26706e004,17336104,Regionálny úrad verejného zdravotníctva Žiar nad Hronom\nhttps://data.gov.sk/dataset/0073e622-a3d4-4426-a0a5-41964538ee44,17336104,Regionálny úrad verejného zdravotníctva Žiar nad Hronom\nhttps://data.gov.sk/dataset/b8da57f6-f3f5-4098-9874-63acdb9338f6,17336104,Regionálny úrad verejného zdravotníctva Žiar nad Hronom\nhttps://data.gov.sk/dataset/55314cec-9ba9-4ce1-b779-03e56864ef23,17335957,Regionálny úrad verejného zdravotníctva Rožňava\nhttps://data.gov.sk/dataset/97ac1ea8-ba97-460c-b64d-64fc018dedba,17335957,Regionálny úrad verejného zdravotníctva Rožňava\nhttps://data.gov.sk/dataset/3b9a3f97-f174-4f53-b710-4c8daa368c05,17335493,Regionálny úrad verejného zdravotníctva Čadca\nhttps://data.gov.sk/dataset/ff86515c-e16d-4075-b37b-e0eb0408d65e,17335493,Regionálny úrad verejného zdravotníctva Čadca\nhttps://data.gov.sk/dataset/cd7ac079-77f2-4162-bc71-4aa1c1bc02ad,17335493,Regionálny úrad verejného zdravotníctva Čadca\nhttps://data.gov.sk/dataset/8072c87e-28b2-4714-b7fa-fd27fac3a018,17335493,Regionálny úrad verejného zdravotníctva Čadca\nhttps://data.gov.sk/dataset/faf00676-ca7b-4612-b50f-42d77defa0bf,17335493,Regionálny úrad verejného zdravotníctva Čadca\nhttps://data.gov.sk/dataset/5b850002-e35f-4256-92d3-4951b13959f7,17335493,Regionálny úrad verejného zdravotníctva Čadca\nhttps://data.gov.sk/dataset/6eb06063-650d-4c0a-9a4d-ee554bee6e7c,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/941ae88b-0004-4694-9ec0-c04b37e37875,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/751df96a-b5c9-4eab-8365-1c40ed70ddb0,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/598bbbf7-b269-4b3f-b6ba-f15cc8204ce7,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/9e10876b-a4ec-457b-accf-60c29344afcf,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/ce3acace-0eaf-4e9e-80dc-e9f4ab14d634,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/30793423-e994-4428-b575-2801c2744c68,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/6f8d9911-bd5f-4291-aca5-ae021ddf8f1b,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/3a15844d-e35f-492a-8a8a-68bea3c3104d,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/9709f6e7-eedf-4fa3-9a0d-7099d6f1faa0,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/6110f988-1fb5-49ab-bcdf-cfbb4d6ee4b7,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/805a1b29-a11b-4300-baa3-e126a60c0eea,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/d4ecc938-e43c-4844-a6ca-adea6d5114c4,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/09d5b58a-3d3d-445e-b523-b85a789cd6d9,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/72fe4698-73ab-4951-bd6b-522b19655e14,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/0bc32d76-bf3b-4c4e-a95e-6c91d7bdf4c4,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/0bada853-fdd0-45cf-b39e-6c57d19a5cef,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/25a9ab21-26fd-4ca8-b2d3-c67183e33aa7,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/a11e1552-c248-4a9e-ab2c-b0342ad72f4b,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/692a5f06-9159-4629-a19d-baf15c121301,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/60baaef3-e6fa-4aba-8c23-55feec2b3038,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/1f934f72-bf58-44eb-8c21-23e44b8e657b,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/34c02f27-df82-40a5-a5e0-0c3a8a04b702,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/e553df26-b2e1-4bb7-893d-b5401505b1b2,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/f1252c6d-0d12-4e8c-bff2-515a67c7744e,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/cee4b9cb-9fd9-49ec-94ea-2ae8d51c46f9,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/6f5e3779-48bc-4e0b-ab96-f6a78aa7e399,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/3299cfcd-d84c-42a8-b039-d4827f2ca23f,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/7c9772e8-9af5-47e1-99b4-6c63fc84e30e,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/1a0ab414-84c8-4464-9dbb-1bc1be601d53,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/04a125c9-15ed-4403-9488-5cdb3f6354f2,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/f7966377-7d67-4036-9a51-32d98ef9602e,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/e416d2fc-4ff5-4997-a9ef-f6c6c1619c3e,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/33ee4c3f-fb9a-4a38-8fd3-62d46f2624f9,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/f3fcea65-d005-4ecc-9c2b-8468339d41de,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/096c1612-1522-4472-a6d4-edf6c5a7625b,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/35f9d138-a2b3-4d2d-8301-bea1d8471294,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/04e7f2af-967e-4d04-9b82-bb6272732017,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/115b5625-67e0-4451-9c05-d5ee07f7b412,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/ca38c4ca-b260-40a4-ae17-1c8bb6a175ff,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/f0cacd83-55ac-47e4-a525-adb6a98715c8,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/fc604ff2-a320-420a-bb35-e2e435d5e651,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/5bd4818c-85cb-447e-b228-0f3fa917812e,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/8ec259bc-84e5-4385-b3bc-92b9e9fcbae5,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/68004bac-5a31-4d27-ba02-9b93688d47d6,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/ee13d434-a988-47a7-ab2b-df5096ac921b,156582,Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave\nhttps://data.gov.sk/dataset/8f2dccab-0275-4155-bf1f-5b384bec895d,30810787,Úrad priemyselného vlastníctva Slovenskej republiky\nhttps://data.gov.sk/dataset/f3e7ea5e-a575-4ad3-85c6-0529d5a07516,30810787,Úrad priemyselného vlastníctva Slovenskej republiky\nhttps://data.gov.sk/dataset/3737582a-4966-43f2-9e18-551319c52d8b,30810787,Úrad priemyselného vlastníctva Slovenskej republiky\nhttps://data.gov.sk/dataset/27d14d71-f796-42b9-b980-ed669377ce92,30810787,Úrad priemyselného vlastníctva Slovenskej republiky\nhttps://data.gov.sk/dataset/1cfd7da7-420f-4f40-ab3f-27ff62317347,30810787,Úrad priemyselného vlastníctva Slovenskej republiky\nhttps://data.gov.sk/dataset/2b3257ad-368c-4f31-bd0b-38f2bc101c67,30810787,Úrad priemyselného vlastníctva Slovenskej republiky\nhttps://data.gov.sk/dataset/e28f0597-7128-4ad1-ab7b-a70806336bd3,30810787,Úrad priemyselného vlastníctva Slovenskej republiky\nhttps://data.gov.sk/dataset/105a8609-9625-456f-a224-d1524b33306f,17335787,Regionálny úrad verejného zdravotníctva Vranov nad Topľou\nhttps://data.gov.sk/dataset/14ac98c8-ea25-4481-8fb0-852972613cf4,17335787,Regionálny úrad verejného zdravotníctva Vranov nad Topľou\nhttps://data.gov.sk/dataset/fc6f5cf8-6e14-4151-8fa0-6a13cf92d6c1,17335434,\"Regionálny úrad verejného zdravotníctva pre \núzemný obvod okresov Senica a Skalica\"\nhttps://data.gov.sk/dataset/d1250b04-0603-4a73-b208-96a3c850fbcc,17335434,\"Regionálny úrad verejného zdravotníctva pre \núzemný obvod okresov Senica a Skalica\"\nhttps://data.gov.sk/dataset/407bf3e6-2ba5-4243-8c92-204ad03cc724,17335434,\"Regionálny úrad verejného zdravotníctva pre \núzemný obvod okresov Senica a Skalica\"\nhttps://data.gov.sk/dataset/cf47aec6-0e14-4602-a1d7-3c24f6cf2e35,17335434,Regionálny úrad verejného zdravotníctva Trebišov\nhttps://data.gov.sk/dataset/68756995-7a64-481f-af25-5c60db30d5ea,17335434,Regionálny úrad verejného zdravotníctva Trebišov\nhttps://data.gov.sk/dataset/e9dbd484-c01a-4251-b3b3-7b9ad846e8f8,17335434,Regionálny úrad verejného zdravotníctva Trebišov\nhttps://data.gov.sk/dataset/6a49df6b-5ed3-4f99-b9a8-05b6b97010c6,17335434,Regionálny úrad verejného zdravotníctva Trebišov\nhttps://data.gov.sk/dataset/943a6626-4343-4acd-9f2e-8916fb14d3f7,17335434,Regionálny úrad verejného zdravotníctva Trebišov\nhttps://data.gov.sk/dataset/bf213526-1259-419b-b072-b855539c26f0,17335914,Regionálny úrad verejného zdravotníctva Svidník\nhttps://data.gov.sk/dataset/ff525d40-4fd4-4b93-9643-b312b5f8b224,17335914,Regionálny úrad verejného zdravotníctva Svidník\nhttps://data.gov.sk/dataset/cebc4b02-7481-4529-9685-73e7eb4039cb,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/3c577a7d-83b5-47d5-be66-6d411664f112,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/d50ce676-1524-4977-b7ed-f2c15416a88b,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/b9c43215-3bdc-402d-b025-57ab6d79f8c3,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/c5fed65b-5d6a-45c1-b14f-f3a538b1bf68,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/4142a5d8-bf73-4de6-91b9-20e6e56c863a,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/175d1ad5-d449-4516-860d-b0feee2c72ed,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/8b7045d8-9f47-43cf-a7d0-aacb5c612107,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/e0df6981-1d49-4d5c-b202-a096230a3c44,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/29b200e7-86e7-4b5a-86c8-096f2d279aba,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/ee938c8d-41a0-42ea-873e-7581390e3f8a,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/211d03d3-2aed-4cb6-9a75-1157bf860f90,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/8943b86a-43b4-480d-8e47-856ad452f48a,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/8943b86a-43b4-480d-8e47-856ad452f48a,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/db81d2f1-077e-4f0d-a01f-760393e46999,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/b99100c4-bab8-4d5b-930c-63be9adffcc6,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/a061660c-c09a-4a65-9243-882fff1440a6,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/4fcd26cb-fbe1-4029-9cca-7e57e166367e,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/1aceec16-0780-4e7d-a736-6ceeb3ff6f94,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/fc21e081-6850-4a35-90f5-6449e95d0f6a,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/5dd4566b-ba61-49e3-81e6-b80e2e7d4f42,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/4feac82a-8d02-4e21-b7a2-e98d723d1263,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/d9baa1f8-3966-422c-9227-094df0c82e88,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/9036a61a-9f0b-4a06-86cc-631a86ea1cb9,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/46928bc0-8a7b-4726-9f54-d816d4cb0095,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/4cb3bf42-08b4-4b10-b4a3-953d02089a8d,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/a0cfe76e-b8eb-446d-9623-f15b7d490a62,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/b813cd81-0cc4-4b5b-8adb-dcfec70136e7,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/0ffa2f51-c6b2-463d-b2ed-d66cbb3f404e,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/3a6e6651-e90b-49ed-a051-56bcf28b63a6,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/03652ce3-95e0-4c52-b27f-41bbd79616bd,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/fc24514e-d126-4cbb-94cd-738a772cbda6,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/d742825f-8561-4b17-98f0-57a1c510ea43,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/cf349835-f88a-4fb1-9926-9821241d52dd,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/62b523fb-9ad7-4f3f-a2f2-081815241485,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/0b5ea49d-af06-4458-96b1-602a6fa4a976,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/a9234f28-0a1c-4c6f-ae40-2f544aa50ddd,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/6382a437-8d72-4fbb-970d-bb73b489e495,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/95deb9a2-d6c2-4e85-bdd8-972ddc1f3c01,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/f541dea8-79ad-4a80-88af-40d57525e08c,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/bf4cfad9-4bfc-4975-9443-046debaaf7a7,42337402,Národné poľnohospodárske a potravinové centrum Lužianky\nhttps://data.gov.sk/dataset/870aa363-b7dc-4a7a-a7e8-60770dda1afc,42001315,Národné lesnícke centrum\nhttps://data.gov.sk/dataset/6511aff3-4f6a-423b-861d-3dfb97229526,42001315,Národné lesnícke centrum\nhttps://data.gov.sk/dataset/c48e3b66-dee3-4029-87dc-c8739985457a,42001315,Národné lesnícke centrum\nhttps://data.gov.sk/dataset/8f577624-cf90-495f-8078-f72865c126ac,42001315,Národné lesnícke centrum\nhttps://data.gov.sk/dataset/c70666eb-b34d-486e-8b93-b522688f1c3d,42001315,Národné lesnícke centrum\nhttps://data.gov.sk/dataset/114e2be3-284e-4375-856f-0f1c0085decb,42001315,Národné lesnícke centrum\nhttps://data.gov.sk/dataset/cf835fbc-4154-4315-a3b3-c8fd6c27d4be,17335451,Regionálny úrad verejného zdravotníctva Stará Ľubovňa\nhttps://data.gov.sk/dataset/089adc66-2ec8-4165-8509-a72ad39ef9f8,17335451,Regionálny úrad verejného zdravotníctva Stará Ľubovňa\nhttps://data.gov.sk/dataset/4668e907-4d98-4e12-8c89-8fed9139d5f0,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/620e0802-327a-4bc3-8b63-469276059ff4,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/bf155f19-bf8d-448b-a32a-060cbba2969d,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/2c3779e3-c3fc-4660-9df0-b60d1c7bab1f,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/980ddf26-1bd9-4454-853d-b288fee92c1c,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/7fcee75b-eff7-44b2-ab62-385b184b662b,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/8ac8a0a0-c6f0-4a78-a281-074de648ac83,165387,Národné centrum zdravotníckych informácií\nhttps://data.gov.sk/dataset/1d5f6ad3-446b-41f1-a32e-76a56f6ca04a,17335621,Regionálny úrad verejného zdravotníctva Martin\nhttps://data.gov.sk/dataset/1e9a3f64-6e9b-49f1-a0fe-1056570dc288,17335621,Regionálny úrad verejného zdravotníctva Martin\nhttps://data.gov.sk/dataset/fe438602-292f-4c96-9a3c-a67bf07a9ac5,611026,Regionálny úrad verejného zdravotníctva Bardejov\nhttps://data.gov.sk/dataset/892a6dc5-20c3-45dd-818a-8533d9e7a754,611026,Regionálny úrad verejného zdravotníctva Bardejov\nhttps://data.gov.sk/dataset/c2b53a98-f93a-40aa-940e-20b0502ad391,607215,Regionálny úrad verejného zdravotníctva Liptovský Mikuláš\nhttps://data.gov.sk/dataset/e33f4612-2c00-4136-89c7-08be0659930d,607215,Regionálny úrad verejného zdravotníctva Liptovský Mikuláš\nhttps://data.gov.sk/dataset/2d37bb5b-06d5-472d-849e-93339ee99598,607215,Regionálny úrad verejného zdravotníctva Liptovský Mikuláš\nhttps://data.gov.sk/dataset/e7cabd23-5e3b-4933-885a-ca62173722a1,607215,Regionálny úrad verejného zdravotníctva Liptovský Mikuláš\nhttps://data.gov.sk/dataset/a6ef3eec-8f2f-47b7-b370-d5ce86dde4a5,607215,Regionálny úrad verejného zdravotníctva Liptovský Mikuláš\nhttps://data.gov.sk/dataset/56de849c-1d42-4d24-8a61-2f1df42e4458,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/905501fd-119d-4394-8116-09cd5cbdfc52,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/b2160e58-c0df-48b6-8673-275ccacff981,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/3cdd4f25-a04f-402c-902c-c9391913d0d9,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/6b87d5fd-f44d-499f-bf66-27e7b560c45c,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/d265eed4-61ad-4532-8d2e-afa72545324a,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/a39c6810-4a67-4774-840a-873ddb80f354,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/5aa12cff-1ac6-48c3-8bae-128c39124bcf,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/f355d16f-bcbc-4523-af5b-89f0b3bfd084,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/8937ada4-96f6-47b7-9f7e-b93d7d00f5a8,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/5803d70d-1c89-4e85-8128-2a4e3fa79720,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/7cf38c7e-4b64-46cb-bfaa-cf101de56076,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/9dee4112-d1e1-429b-90f2-e8263a9c5ed0,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/6a957fd4-9ab6-495f-ab3d-be69d7572a1e,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/ea2352bf-0cd8-4bf1-8750-2d3fdda58aba,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/a2e15095-8342-467b-b230-85938786fc5b,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/69a26935-3c50-42f9-9d9c-3f23c0dbba79,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/58d65c83-3b35-4514-966b-daf30e3bfc6b,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/bedd3395-6779-4765-91ec-9c0a40893d50,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/11039b04-afa0-4659-a035-683e404ae2d3,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/6b3b84bd-faca-4fd7-b65b-7d13f5db30ad,30416094,Ministerstvo dopravy a výstavby SR\nhttps://data.gov.sk/dataset/bf6d254f-0a23-43a2-a6c3-9f246e5de3fc,686832,Ministerstvo hospodárstva SR\nhttps://data.gov.sk/dataset/32ee41bd-7383-4a05-a3db-cd1a18c31fda,30845572,Ministerstvo obrany SR\nhttps://data.gov.sk/dataset/fcef6a23-ac0c-40cd-ba90-ec77f424d11d,30845572,Ministerstvo obrany SR\nhttps://data.gov.sk/dataset/621de6a8-2497-42da-b123-4488fe506b4d,30845572,Ministerstvo obrany SR\nhttps://data.gov.sk/dataset/3bac883e-ac4f-4d2e-a987-62d2b201f4e7,699021,Ministerstvo zahraničných vecí a európskych záležitostí SR\nhttps://data.gov.sk/dataset/4a2b090f-ba13-40f6-b161-4462d7f9a036,699021,Ministerstvo zahraničných vecí a európskych záležitostí SR\nhttps://data.gov.sk/dataset/ba34772d-666f-4a4f-ae51-256bedc27b02,699021,Ministerstvo zahraničných vecí a európskych záležitostí SR\nhttps://data.gov.sk/dataset/138bf045-a752-478c-b7de-b9d5f356a7be,165387,\"Hydromeliorácie, štátny podnik\"\nhttps://data.gov.sk/dataset/f70eb985-c3d8-4ab0-b652-41d850149b35,165387,\"Hydromeliorácie, štátny podnik\"\nhttps://data.gov.sk/dataset/67724193-2b12-4f9b-84e6-ac73bb3a33fe,165387,\"Hydromeliorácie, štátny podnik\"\nhttps://data.gov.sk/dataset/d751e9f5-c252-4647-b639-623bac6b6658,35985135,Múzeum vo Svätom Antone\nhttps://data.gov.sk/dataset/2f0b2a00-7f5a-4e79-b9bc-fb5652993e61,35985135,Múzeum vo Svätom Antone\nhttps://data.gov.sk/dataset/9dfa6d97-1e77-4cbc-b85b-90ac9f7a1aa8,35985135,Múzeum vo Svätom Antone\nhttps://data.gov.sk/dataset/c9c146ca-e11c-4d53-8843-fb1a58aa0441,35985135,Múzeum vo Svätom Antone\nhttps://data.gov.sk/dataset/4fd13a04-5895-4734-8877-bd523ec0881d,151491,Kancelária národnej rady\nhttps://data.gov.sk/dataset/9e2b3d50-4a11-4ea3-a8ee-1207fec30994,151491,Kancelária národnej rady\nhttps://data.gov.sk/dataset/a41df747-a334-4428-8ed7-34ba63e1a1c1,493546,Inštitút vzdelávania veterinárnych lekárov Košice\nhttps://data.gov.sk/dataset/4a67eb4e-9c0f-43b8-b5c1-93a94659aa7a,493546,Inštitút vzdelávania veterinárnych lekárov Košice\nhttps://data.gov.sk/dataset/7aa9aa1f-9261-4a14-8ec8-2f7cbe95c16c,493546,Inštitút vzdelávania veterinárnych lekárov Košice\nhttps://data.gov.sk/dataset/f78dc92e-e388-4297-94a5-f4f6cf27b4cd,493546,Inštitút vzdelávania veterinárnych lekárov Košice\nhttps://data.gov.sk/dataset/8a1dca62-4791-4d6d-8c33-e6465c6a3081,493546,Inštitút vzdelávania veterinárnych lekárov Košice\nhttps://data.gov.sk/dataset/3e3d2777-9e13-47d1-8c71-01bf1cf705a4,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/611ff584-5ad0-4415-83d2-166533787073,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/e9f3175b-76cc-4ad2-83d5-a2401b24fa1a,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/3b77afd3-1314-402f-8134-fbe077bfae0c,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/923d566a-7618-4888-9711-fb2cb16271c8,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/a1b15ec9-d343-430a-a194-064cb97a637e,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/5b4ca6cd-e144-4932-8425-120154e8355c,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/b917d09e-b143-4475-bdfa-9fcc4e10ed9d,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/64f0f73b-41bd-4ef8-919e-196223b3d9ad,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/3aa6c90e-6201-4261-bf53-9580a1d52787,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/77a7bd8b-8b24-4d4c-84fa-451c9a95c20d,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/178eca08-7b33-46bb-944d-f5e71cfdb278,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/28270634-e06a-486c-8b1e-90e1a37227f6,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/8e6571fc-0785-4c15-bc28-51dfdb0e6231,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/aa020ea6-ec34-4328-a4aa-b832f2a29a38,156621,Ministerstvo pôdohospodárstva a rozvoja vidieka SR\nhttps://data.gov.sk/dataset/0c463d7e-a45f-4e8c-8264-ba03fe00e21c,151866,Ministerstvo vnútra SR\nhttps://data.gov.sk/dataset/0c463d7e-a45f-4e8c-8264-ba03fe00e21c,151866,Ministerstvo vnútra SR\nhttps://data.gov.sk/dataset/ced0b811-673e-4975-811d-93f32c6a0264,151866,Ministerstvo vnútra SR\nhttps://data.gov.sk/dataset/6a81933d-2871-46b9-a26e-8ca980f83e99,151866,Ministerstvo vnútra SR\nhttps://data.gov.sk/dataset/edaa29fb-8f22-4416-b43d-8f433a8cfe25,165565,Ministerstvo zdravotníctva SR\nhttps://data.gov.sk/dataset/31c0513b-0c95-480d-8aff-f5f63a66ea12,166073,Ministerstvo spravodlivosti SR\nhttps://data.gov.sk/dataset/daf3d70d-d473-4813-9bc5-13464fa96d41,166073,Ministerstvo spravodlivosti SR\nhttps://data.gov.sk/dataset/4e126e26-92b8-4b4a-b39e-235b4eedae3f,166073,Ministerstvo spravodlivosti SR"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-textHolder#fileName" : [ {
+      "@value" : "dist-serie.csv"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-textHolder#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c8c9-9d05/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "http://etl.linkedpipes.com/resources/components/t-chunkedToGraph/0.0.0/new/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-chunkedToGraph#Configuration" ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/c985-a40c/configuration"
 }, {
   "@graph" : [ {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/component/e7d4-99c1/configuration",
