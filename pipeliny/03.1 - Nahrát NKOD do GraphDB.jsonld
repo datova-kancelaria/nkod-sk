@@ -18,16 +18,22 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/components/1654181494264-29e7fc89-7c48-4e64-9c6f-9bb041af2794/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#endpoint" : [ {
-      "@value" : "http://localhost:7200/repositories/nkod/rdf-graphs/service"
+      "@value" : ""
     } ],
     "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#endpointControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
     } ],
+    "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#endpointSubstitution" : [ {
+      "@value" : "{LP_ETL_GRAPHDB_URL}"
+    } ],
     "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#password" : [ {
-      "@value" : "nejlepsipaper"
+      "@value" : ""
     } ],
     "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#passwordControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#passwordSubstitution" : [ {
+      "@value" : "{LP_ETL_GRAPHDB_PASS}"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#repository" : [ {
       "@value" : "DEFAULT"
@@ -43,10 +49,13 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#username" : [ {
-      "@value" : "lpetl"
+      "@value" : ""
     } ],
     "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#usernameControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#usernameSubstitution" : [ {
+      "@value" : "{LP_ETL_GRAPHDB_USER}"
     } ]
   } ],
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/components/1654181494264-29e7fc89-7c48-4e64-9c6f-9bb041af2794/configuration"
@@ -84,7 +93,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#endpoint" : [ {
-      "@value" : "http://localhost:7200/repositories/nkod/rdf-graphs/service"
+      "@value" : ""
     } ],
     "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#endpointControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
@@ -92,14 +101,20 @@
     "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#endpointSelectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
     } ],
+    "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#endpointSubstitution" : [ {
+      "@value" : "{LP_ETL_GRAPHDB_URL}"
+    } ],
     "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#graphControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#password" : [ {
-      "@value" : "nejlepsipaper"
+      "@value" : ""
     } ],
     "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#passwordControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#passwordSubstitution" : [ {
+      "@value" : "{LP_ETL_GRAPHDB_PASS}"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#replace" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -115,10 +130,13 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#user" : [ {
-      "@value" : "lpetl"
+      "@value" : ""
     } ],
     "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#userControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#userSubstitution" : [ {
+      "@value" : "{LP_ETL_GRAPHDB_USER}"
     } ]
   } ],
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/components/1654181625368-b16ee039-2850-43b3-a3e3-f5ea95683d5c/configuration"
