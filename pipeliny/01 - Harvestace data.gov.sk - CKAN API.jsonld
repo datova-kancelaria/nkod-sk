@@ -746,7 +746,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#path" : [ {
-      "@value" : "/data/nkod-sk/data.gov.sk/ckan/rdf"
+      "@value" : "/data/lp-etl/data.gov.sk/ckan/rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -764,7 +764,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#path" : [ {
-      "@value" : "/data/nkod-sk/data.gov.sk/ckan/json"
+      "@value" : "/data/lp-etl/data.gov.sk/ckan/json"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -1069,7 +1069,7 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823973959/component/5e1e-8e2b/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/x-deleteDirectory#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/x-deleteDirectory#directory" : [ {
-      "@value" : "/data/nkod-sk/data.gov.sk/ckan/rdf"
+      "@value" : "/data/lp-etl/data.gov.sk/ckan/rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-deleteDirectory#directoryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -1081,7 +1081,7 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823973959/component/74e4-807f/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/x-deleteDirectory#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/x-deleteDirectory#directory" : [ {
-      "@value" : "/data/nkod-sk/data.gov.sk/ckan/json"
+      "@value" : "/data/lp-etl/data.gov.sk/ckan/json"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-deleteDirectory#directoryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"

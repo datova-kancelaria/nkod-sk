@@ -178,7 +178,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#path" : [ {
-      "@value" : "/data/nkod-sk/cache"
+      "@value" : "/data/lp-etl/cache"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"

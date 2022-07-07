@@ -1255,7 +1255,7 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1652943440021/component/4d8f-a15c/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#path" : [ {
-      "@value" : "/data/nkod-sk/dumps/nkod.trig"
+      "@value" : "/data/website/dumps/nkod.trig"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#pathControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
