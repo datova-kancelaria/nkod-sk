@@ -45,7 +45,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointSubstitution" : [ {
-      "@value" : "{LP_ETL_GRAPHDB_QUERY_URL}"
+      "@value" : "{LP_ETL_GRAPHDB_URL}/repositories/nkod"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -111,7 +111,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#endpointSubstitution" : [ {
-      "@value" : "{LP_ETL_GRAPHDB_URL}"
+      "@value" : "{LP_ETL_GRAPHDB_URL}/repositories/nkod/rdf-graphs/service"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-graphStorePurger#password" : [ {
       "@value" : ""
@@ -189,7 +189,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#endpointSubstitution" : [ {
-      "@value" : "{LP_ETL_GRAPHDB_URL}"
+      "@value" : "{LP_ETL_GRAPHDB_URL}/repositories/nkod/rdf-graphs/service"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-graphStoreProtocol#graphControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
