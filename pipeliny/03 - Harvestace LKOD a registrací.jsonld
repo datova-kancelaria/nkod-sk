@@ -269,9 +269,9 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/94"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/74a8-8dd0"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/d29f-8ee5"
     }, {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/543b-8e54"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/fcc4-a4ad"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/11",
@@ -461,7 +461,7 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/31"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/ea31-b260"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/9069-a702"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/122",
@@ -509,9 +509,9 @@
       "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/100"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/d237-94b9"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/60e3-b367"
     }, {
-      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/4596-bb1c"
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/fd49-80bb"
     } ]
   }, {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/127",
@@ -573,7 +573,7 @@
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "210"
+      "@value" : "209"
     } ],
     "http://purl.org/dc/terms/description" : [ {
       "@value" : "Přidat vazbu na NKOD"
@@ -2437,7 +2437,7 @@
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-14"
+      "@value" : "-13"
     } ],
     "http://purl.org/dc/terms/description" : [ {
       "@value" : "Zpracování záznamů\nindividuálních registrací"
@@ -2466,52 +2466,63 @@
       "@value" : "Files to local"
     } ]
   }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/4596-bb1c",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "2"
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/component/3756-9610",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/component/3756-9610/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-sparqlConstructChunked/0.0.0"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "2365"
+      "@value" : "510"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "365"
+      "@value" : "92"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Extrahovat publishery"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL construct chunked"
     } ]
   }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/543b-8e54",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "2"
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/connection/c006-af3c",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
     } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1990"
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/5"
     } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "896"
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/component/3756-9610"
     } ]
   }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/74a8-8dd0",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/connection/d1c5-a878",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
     } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1251"
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/component/3756-9610"
     } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "898"
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/11"
+    } ],
+    "http://linkedpipes.com/ontology/vertex" : [ {
+      "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/c40f-8979"
     } ]
   }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/d237-94b9",
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/60e3-b367",
     "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
@@ -2526,7 +2537,7 @@
       "@value" : "359"
     } ]
   }, {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/ea31-b260",
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/9069-a702",
     "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
@@ -2539,6 +2550,66 @@
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#integer",
       "@value" : "467"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/c40f-8979",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "753"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "617"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/d29f-8ee5",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1251"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "898"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/fcc4-a4ad",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1990"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "896"
+    } ]
+  }, {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/vertex/fd49-80bb",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2365"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "365"
     } ]
   } ],
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184"
@@ -2728,7 +2799,7 @@
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/193"
 }, {
   "@graph" : [ {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/194",
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/100/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#outputMode" : [ {
       "@id" : "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#createNewChunk"
@@ -2737,7 +2808,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX schema: <http://schema.org/>\nPREFIX vcard: <http://www.w3.org/2006/vcard/ns#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX gr: <http://purl.org/goodrelations/v1#>\n\nPREFIX pu: <https://data.gov.sk/slovník/podmienky-užitie/>\nPREFIX nkod: <https://data.gov.sk/slovník/nkod/>\n\nCONSTRUCT {\n  ?catalog dcat:dataset ?dataset_new .\n\n  ?dataset_new a dcat:Dataset ;\n    dcterms:title ?title ;\n    dcterms:description ?description ;\n    dcat:theme ?theme ;\n    dcterms:accrualPeriodicity ?accrualPeriodicity ;\n    dcat:keyword ?keyword ;\n    dcterms:spatial ?spatial ;\n    dcterms:temporal ?temporal_new ;\n    dcat:contactPoint ?cp_new ;\n    foaf:page ?page ;\n    dcterms:conformsTo ?conformsTo ;\n    dcat:spatialResolutionInMeters ?spatialResolution ;\n    dcat:temporalResolution ?temporalResolution ;\n    dcterms:isPartOf ?topDatasetNew ;\n    dcat:distribution ?distribution_new ;\n    dcterms:publisher ?publisher ;\n    dcterms:identifier ?dataset_old_str .\n\n  ?cp_new a ?cptype; \n    vcard:fn ?cpfn ;\n    vcard:hasEmail ?cpemail .\n\n  ?publisher a foaf:Agent;\n    foaf:name ?pname .\n\n  ?temporal_new a dcterms:PeriodOfTime; \n    dcat:startDate ?finalStartDate ;\n    dcat:endDate ?finalEndDate .\n\n  ?distribution_new a dcat:Distribution ;\n    dcat:downloadURL ?ddURL ;\n    dcat:accessURL ?daURL ;\n    dcterms:format ?dformat ;\n    dcat:mediaType ?dmimeType ;\n    dcterms:conformsTo ?dconformsTo ;\n    dcat:compressFormat ?dcompressFormat ;\n    dcat:packageFormat ?dpackageFormat ;\n    dcterms:title ?dtitle ;\n    dcterms:license ?license .\n  \n  ?distribution_new pu:špecifikácia ?pu_new .\n\n  ?pu_new a pu:Špecifikácia ;\n    pu:autorské-dielo ?touGeneral ;\n\tpu:databáza-ako-autorské-dielo ?touDatabase ;\n    pu:databáza-chránená-zvláštnymi-právami ?touDatabaseExtra ;\n\tpu:osobné-údaje ?touPersonalData ;\n\tpu:autor ?touGeneralAuthor ;\n\tpu:autor-databáze ?touDatabaselAuthor .\n\n  ?distribution_new dcat:accessService ?dataservice_new . \n\n  ?dataservice_new a dcat:DataService ;\n    dcterms:title ?sTitle ;\n    dcat:endpointURL ?sEndpointURL ;\n    dcterms:conformsTo ?sConformsTo ;\n    dcat:endpointDescription ?sEndpointDescription .\n\n  ?record_new a dcat:CatalogRecord;\n    dcterms:source ?dataset ;\n    foaf:primaryTopic ?dataset_new ;\n    dcterms:language <http://publications.europa.eu/resource/authority/language/SVK>,\n      <http://publications.europa.eu/resource/authority/language/ENG> ;\n    dcterms:conformsTo <https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/201-0> .\n}\nWHERE {\n  ?catalog a dcat:Catalog ;\n    dcat:dataset ?dataset ;\n    dcterms:publisher ?publisher .\n\n  ?publisher foaf:name ?pname .\n\n  ?dataset a dcat:Dataset ;\n             dcterms:title ?title ;\n             dcterms:description ?description ;\n             dcat:theme ?theme ;\n             dcterms:accrualPeriodicity ?accrualPeriodicity ;\n             dcat:keyword ?keyword ;\n             dcterms:spatial ?spatial .\n\n  OPTIONAL { ?dataset dcterms:temporal ?temporal . \n    OPTIONAL { ?temporal dcat:startDate ?startDate . }\n    OPTIONAL { ?temporal dcat:endDate ?endDate . }\n    OPTIONAL { ?temporal schema:startDate ?schemaStartDate . }\n    OPTIONAL { ?temporal schema:endDate ?schemaEndDate . }\n    BIND(IF(BOUND(?startDate), ?startDate, ?schemaStartDate) AS ?finalStartDate)\n    BIND(IF(BOUND(?endDate), ?endDate, ?schemaEndDate) AS ?finalEndDate)\n  }\n\n  OPTIONAL { ?dataset dcat:contactPoint ?cp . \n    ?cp a ?cptype.\n    OPTIONAL { ?cp vcard:fn ?cpfn . }\n    OPTIONAL { ?cp vcard:hasEmail ?cpemail . }\n  }\n\n  OPTIONAL { ?dataset foaf:page ?page . }\n  OPTIONAL { ?dataset dcterms:conformsTo ?conformsTo . }\n  OPTIONAL { ?dataset dcat:spatialResolutionInMeters ?spatialResolution . }\n  OPTIONAL { ?dataset dcat:temporalResolution ?temporalResolution . }\n  OPTIONAL { ?dataset dcterms:isPartOf ?topDataset . }\n\n  OPTIONAL {\n    ?dataset dcat:distribution ?distribution .\n    ?distribution a dcat:Distribution ;\n             dcat:accessURL ?daURL .\n    \n    OPTIONAL {\n      ?distribution pu:špecifikácia ?pu .\n        ?pu a pu:Špecifikácia ;\n            pu:autorské-dielo ?touGeneral ;\n            pu:databáza-ako-autorské-dielo ?touDatabase ;\n            pu:databáza-chránená-zvláštnymi-právami ?touDatabaseExtra ;\n            pu:osobné-údaje ?touPersonalData ;\n            pu:autor ?touGeneralAuthor ;\n            pu:autor-databáze ?touDatabaselAuthor .\n\n        OPTIONAL { ?pu pu:autor ?touGeneralAuthor . }\n        OPTIONAL { ?pu pu:autor-databáze ?touDatabaselAuthor . }\n    }\n\n    OPTIONAL { ?distribution dcterms:license ?license . }\n    OPTIONAL { ?distribution dcat:downloadURL ?ddURL . }\n    OPTIONAL { ?distribution dcterms:format ?dformat . }\n    OPTIONAL { ?distribution dcat:mediaType ?dmimeType . }\n    OPTIONAL { ?distribution dcterms:conformsTo ?dconformsTo . }\n    OPTIONAL { ?distribution dcat:compressFormat ?dcompressFormat . }\n    OPTIONAL { ?distribution dcat:packageFormat ?dpackageFormat . }\n    OPTIONAL { ?distribution dcterms:title ?dtitle . }\n\n    OPTIONAL { \n      ?distribution dcat:accessService ?dataService . \n      ?dataService a dcat:DataService ;\n                    dcterms:title ?sTitle ;\n                    dcat:endpointURL ?sEndpointURL .\n\n      OPTIONAL { ?dataService dcat:endpointDescription ?sEndpointDescription .}\n      OPTIONAL { ?dataService dcterms:conformsTo ?sConformsTo .}\n    }\n  }\n\n  BIND (STRDT(STR(?dataset), xsd:anyURI) AS ?dataset_old_str)\n  BIND (CONCAT(\"https://data.gov.sk/set/dataset/\") AS ?new_IRI_base)\n  BIND (MD5(CONCAT(STR(?dataset), STR(?publisher))) AS ?datasetID)\n  BIND (IRI(CONCAT(?new_IRI_base, ?datasetID)) as ?dataset_new)\n  BIND (IRI(CONCAT(?new_IRI_base, MD5(CONCAT(STR(?topDataset), STR(?publisher))))) as ?topDatasetNew)\n  BIND (IRI(CONCAT(\"https://data.gov.sk/set/distribution/\", ?datasetID, \"/\", MD5(STR(?distribution)))) as ?distribution_new)\n  BIND (IRI(CONCAT(\"https://data.gov.sk/set/data-service/\", MD5(CONCAT(STR(?dataService), STR(?publisher))))) as ?dataservice_new)\n  BIND (IRI(CONCAT(STR(?dataset_new),\"/záznam\")) as ?record_new)\n  BIND (IRI(CONCAT(STR(?dataset_new),\"/kontaktný-bod\")) as ?cp_new)\n  BIND (IRI(CONCAT(STR(?distribution_new),\"/podmienky-užitie\")) as ?pu_new)\n  BIND (IRI(CONCAT(STR(?dataset_new),\"/časové-pokrytie\")) as ?temporal_new)\n}"
+      "@value" : "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX schema: <http://schema.org/>\nPREFIX vcard: <http://www.w3.org/2006/vcard/ns#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX gr: <http://purl.org/goodrelations/v1#>\n\nPREFIX pu: <https://data.gov.sk/slovník/podmienky-užitie/>\nPREFIX nkod: <https://data.gov.sk/slovník/nkod/>\n\nCONSTRUCT {\n  ?catalog dcat:dataset ?dataset_new .\n\n  ?dataset_new a dcat:Dataset ;\n    dcterms:title ?title ;\n    dcterms:description ?description ;\n    dcat:theme ?theme ;\n    dcterms:accrualPeriodicity ?accrualPeriodicity ;\n    dcat:keyword ?keyword ;\n    dcterms:spatial ?spatial ;\n    dcterms:temporal ?temporal_new ;\n    dcat:contactPoint ?cp_new ;\n    foaf:page ?page ;\n    dcterms:conformsTo ?conformsTo ;\n    dcat:spatialResolutionInMeters ?spatialResolution ;\n    dcat:temporalResolution ?temporalResolution ;\n    dcterms:isPartOf ?topDatasetNew ;\n    dcat:distribution ?distribution_new ;\n    dcterms:publisher ?publisher ;\n    dcterms:identifier ?dataset_old_str .\n\n  ?cp_new a ?cptype; \n    vcard:fn ?cpfn ;\n    vcard:hasEmail ?cpemail .\n\n  ?publisher a foaf:Agent;\n    foaf:name ?pname .\n\n  ?temporal_new a dcterms:PeriodOfTime; \n    dcat:startDate ?finalStartDate ;\n    dcat:endDate ?finalEndDate .\n\n  ?distribution_new a dcat:Distribution ;\n    dcat:downloadURL ?ddURL ;\n    dcat:accessURL ?daURL ;\n    dcterms:format ?dformat ;\n    dcat:mediaType ?dmimeType ;\n    dcterms:conformsTo ?dconformsTo ;\n    dcat:compressFormat ?dcompressFormat ;\n    dcat:packageFormat ?dpackageFormat ;\n    dcterms:title ?dtitle ;\n    dcterms:license ?license .\n  \n  ?distribution_new pu:špecifikácia ?pu_new .\n\n  ?pu_new a pu:Špecifikácia ;\n    pu:autorské-dielo ?touGeneral ;\n\tpu:databáza-ako-autorské-dielo ?touDatabase ;\n    pu:databáza-chránená-zvláštnymi-právami ?touDatabaseExtra ;\n\tpu:osobné-údaje ?touPersonalData ;\n\tpu:autor ?touGeneralAuthor ;\n\tpu:autor-databáze ?touDatabaselAuthor .\n\n  ?distribution_new dcat:accessService ?dataservice_new . \n\n  ?dataservice_new a dcat:DataService ;\n    dcterms:title ?sTitle ;\n    dcat:endpointURL ?sEndpointURL ;\n    dcterms:conformsTo ?sConformsTo ;\n    dcat:endpointDescription ?sEndpointDescription .\n\n  ?record_new a dcat:CatalogRecord;\n    dcterms:source ?dataset ;\n    foaf:primaryTopic ?dataset_new ;\n    dcterms:language <http://publications.europa.eu/resource/authority/language/SVK>,\n      <http://publications.europa.eu/resource/authority/language/ENG> ;\n    dcterms:conformsTo <https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/201-0> .\n}\nWHERE {\n  ?catalog a dcat:Catalog ;\n    dcat:dataset ?dataset .\n\n  ?dataset a dcat:Dataset ;\n             dcterms:title ?title ;\n             dcterms:description ?description ;\n             dcat:theme ?theme ;\n             dcterms:accrualPeriodicity ?accrualPeriodicity ;\n             dcat:keyword ?keyword ;\n             dcterms:spatial ?spatial ;\n    \t\t dcterms:publisher ?publisher .\n\n  ?publisher foaf:name ?pname .\n\n  OPTIONAL { ?dataset dcterms:temporal ?temporal . \n    OPTIONAL { ?temporal dcat:startDate ?startDate . }\n    OPTIONAL { ?temporal dcat:endDate ?endDate . }\n    OPTIONAL { ?temporal schema:startDate ?schemaStartDate . }\n    OPTIONAL { ?temporal schema:endDate ?schemaEndDate . }\n    BIND(IF(BOUND(?startDate), ?startDate, ?schemaStartDate) AS ?finalStartDate)\n    BIND(IF(BOUND(?endDate), ?endDate, ?schemaEndDate) AS ?finalEndDate)\n  }\n\n  OPTIONAL { ?dataset dcat:contactPoint ?cp . \n    ?cp a ?cptype.\n    OPTIONAL { ?cp vcard:fn ?cpfn . }\n    OPTIONAL { ?cp vcard:hasEmail ?cpemail . }\n  }\n\n  OPTIONAL { ?dataset foaf:page ?page . }\n  OPTIONAL { ?dataset dcterms:conformsTo ?conformsTo . }\n  OPTIONAL { ?dataset dcat:spatialResolutionInMeters ?spatialResolution . }\n  OPTIONAL { ?dataset dcat:temporalResolution ?temporalResolution . }\n  OPTIONAL { ?dataset dcterms:isPartOf ?topDataset . }\n\n  OPTIONAL {\n    ?dataset dcat:distribution ?distribution .\n    ?distribution a dcat:Distribution ;\n             dcat:accessURL ?daURL .\n    \n    OPTIONAL {\n      ?distribution pu:špecifikácia ?pu .\n        ?pu a pu:Špecifikácia ;\n            pu:autorské-dielo ?touGeneral ;\n            pu:databáza-ako-autorské-dielo ?touDatabase ;\n            pu:databáza-chránená-zvláštnymi-právami ?touDatabaseExtra ;\n            pu:osobné-údaje ?touPersonalData ;\n            pu:autor ?touGeneralAuthor ;\n            pu:autor-databáze ?touDatabaselAuthor .\n\n        OPTIONAL { ?pu pu:autor ?touGeneralAuthor . }\n        OPTIONAL { ?pu pu:autor-databáze ?touDatabaselAuthor . }\n    }\n\n    OPTIONAL { ?distribution dcterms:license ?license . }\n    OPTIONAL { ?distribution dcat:downloadURL ?ddURL . }\n    OPTIONAL { ?distribution dcterms:format ?dformat . }\n    OPTIONAL { ?distribution dcat:mediaType ?dmimeType . }\n    OPTIONAL { ?distribution dcterms:conformsTo ?dconformsTo . }\n    OPTIONAL { ?distribution dcat:compressFormat ?dcompressFormat . }\n    OPTIONAL { ?distribution dcat:packageFormat ?dpackageFormat . }\n    OPTIONAL { ?distribution dcterms:title ?dtitle . }\n\n    OPTIONAL { \n      ?distribution dcat:accessService ?dataService . \n      ?dataService a dcat:DataService ;\n                    dcterms:title ?sTitle ;\n                    dcat:endpointURL ?sEndpointURL .\n\n      OPTIONAL { ?dataService dcat:endpointDescription ?sEndpointDescription .}\n      OPTIONAL { ?dataService dcterms:conformsTo ?sConformsTo .}\n    }\n  }\n\n  BIND (STRDT(STR(?dataset), xsd:anyURI) AS ?dataset_old_str)\n  BIND (CONCAT(\"https://data.gov.sk/set/dataset/\") AS ?new_IRI_base)\n  BIND (MD5(CONCAT(STR(?dataset), STR(?publisher))) AS ?datasetID)\n  BIND (IRI(CONCAT(?new_IRI_base, ?datasetID)) as ?dataset_new)\n  BIND (IRI(CONCAT(?new_IRI_base, MD5(CONCAT(STR(?topDataset), STR(?publisher))))) as ?topDatasetNew)\n  BIND (IRI(CONCAT(\"https://data.gov.sk/set/distribution/\", ?datasetID, \"/\", MD5(STR(?distribution)))) as ?distribution_new)\n  BIND (IRI(CONCAT(\"https://data.gov.sk/set/data-service/\", MD5(CONCAT(STR(?dataService), STR(?publisher))))) as ?dataservice_new)\n  BIND (IRI(CONCAT(STR(?dataset_new),\"/záznam\")) as ?record_new)\n  BIND (IRI(CONCAT(STR(?dataset_new),\"/kontaktný-bod\")) as ?cp_new)\n  BIND (IRI(CONCAT(STR(?distribution_new),\"/podmienky-užitie\")) as ?pu_new)\n  BIND (IRI(CONCAT(STR(?dataset_new),\"/časové-pokrytie\")) as ?temporal_new)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -3019,6 +3090,39 @@
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/235"
 }, {
   "@graph" : [ {
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/component/3756-9610/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#deduplication" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#deduplicationControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#query" : [ {
+      "@value" : "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX vcard: <http://www.w3.org/2006/vcard/ns#>\n\nCONSTRUCT { \n  ?publisher a foaf:Agent ;\n    foaf:name ?publisher_name .\n} \nWHERE {\n  ?dataset a dcat:Dataset ;\n    dcterms:publisher ?publisher .\n  ?publisher a foaf:Agent ;\n    foaf:name ?publisher_name .\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFail" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#softFailControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threads" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "8"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstructChunked#threadsControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/component/3756-9610/configuration"
+}, {
+  "@graph" : [ {
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/139",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlUpdateChunked#query" : [ {
@@ -3250,7 +3354,7 @@
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/graph/156"
 }, {
   "@graph" : [ {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/157",
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/31/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#outputMode" : [ {
       "@id" : "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#createNewChunk"
@@ -3259,7 +3363,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX schema: <http://schema.org/>\nPREFIX vcard: <http://www.w3.org/2006/vcard/ns#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX pu: <https://data.gov.sk/slovník/podmienky-užitie/>\nPREFIX nkod: <https://data.gov.sk/slovník/nkod/>\n\nCONSTRUCT {\n  ?catalog dcat:dataset ?dataset_new .\n\n  ?dataset_new a dcat:Dataset ;\n    dcterms:title ?title ;\n    dcterms:description ?description ;\n    dcat:theme ?theme ;\n    dcterms:accrualPeriodicity ?accrualPeriodicity ;\n    dcat:keyword ?keyword ;\n    dcterms:spatial ?spatial ;\n    dcterms:temporal ?temporal_new ;\n    dcat:contactPoint ?cp_new ;\n    foaf:page ?page ;\n    dcterms:issued ?issued ;\n    dcterms:conformsTo ?conformsTo ;\n    dcat:spatialResolutionInMeters ?spatialResolution ;\n    dcat:temporalResolution ?temporalResolution ;\n    dcterms:isPartOf ?topDatasetNew ;\n    dcat:distribution ?distribution_new ;\n    dcterms:publisher ?publisher ;\n    dcterms:identifier ?dataset_old_str .\n\n  ?cp_new a ?cptype; \n    vcard:fn ?cpfn ;\n    vcard:hasEmail ?cpemail .\n\n  ?temporal_new a dcterms:PeriodOfTime; \n    dcat:startDate ?finalStartDate ;\n    dcat:endDate ?finalEndDate .\n\n  ?publisher a foaf:Agent, foaf:Organization;\n    foaf:name ?pname .\n\n  ?distribution_new a dcat:Distribution ;\n    dcat:downloadURL ?ddURL ;\n    dcat:accessURL ?daURL ;\n    dcterms:format ?dformat ;\n    dcat:mediaType ?dmimeType ;\n    dcterms:conformsTo ?dconformsTo ;\n    dcat:compressFormat ?dcompressFormat ;\n    dcat:packageFormat ?dpackageFormat ;\n    dcterms:title ?dtitle ;\n    dcterms:license ?license .\n  \n  ?distribution_new pu:špecifikácia ?pu_new .\n\n  ?pu_new a pu:Špecifikácia ;\n    pu:autorské-dielo ?touGeneral ;\n\tpu:databáza-ako-autorské-dielo ?touDatabase ;\n    pu:databáza-chránená-zvláštnymi-právami ?touDatabaseExtra ;\n\tpu:osobné-údaje ?touPersonalData ;\n\tpu:autor ?touGeneralAuthor ;\n\tpu:autor-databáze ?touDatabaselAuthor .\n\n  ?distribution_new dcat:accessService ?dataservice_new . \n  ?dataservice_new a dcat:DataService ;\n    dcterms:title ?sTitle ;\n    dcterms:conformsTo ?sConformsTo ;\n    dcat:endpointURL ?sEndpointURL ;\n    dcat:endpointDescription ?sEndpointDescription .\n\n  ?record_new a dcat:CatalogRecord;\n    dcterms:source ?dataset ;\n    foaf:primaryTopic ?dataset_new ;\n    dcterms:language <http://publications.europa.eu/resource/authority/language/SVK>, <http://publications.europa.eu/resource/authority/language/ENG> ;\n    dcterms:conformsTo <https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/201-0> .\n}\nWHERE {\n  ?catalog a dcat:Catalog ;\n             dcat:dataset ?dataset ;\n             dcterms:publisher ?publisher .\n\n  ?publisher foaf:name ?pname .\n\n  ?dataset a dcat:Dataset ;\n             dcterms:title ?title ;\n             dcterms:description ?description ;\n             dcat:theme ?theme ;\n             dcterms:accrualPeriodicity ?accrualPeriodicity ;\n             dcat:keyword ?keyword ;\n             dcterms:spatial ?spatial .\n\n  FILTER(isIRI(?spatial) && isIRI(?theme) && isIRI(?accrualPeriodicity))\n  OPTIONAL { ?dataset dcterms:temporal ?temporal . \n    OPTIONAL { \n      ?temporal dcat:startDate ?startDate .\n      FILTER(REGEX(STR(?startDate), \"[0-9]{4}-[0-9]{2}-[0-9]{2}\") && DATATYPE(?startDate) = xsd:date)\n    }\n    OPTIONAL { \n      ?temporal dcat:endDate ?endDate . \n      FILTER(REGEX(STR(?endDate), \"[0-9]{4}-[0-9]{2}-[0-9]{2}\") && DATATYPE(?endDate) = xsd:date)\n    }\n    OPTIONAL { \n      ?temporal schema:startDate ?schemaStartDate . \n      FILTER(REGEX(STR(?schemaStartDate), \"[0-9]{4}-[0-9]{2}-[0-9]{2}\") && DATATYPE(?schemaStartDate) = xsd:date)\n    }\n    OPTIONAL { \n      ?temporal schema:endDate ?schemaEndDate . \n      FILTER(REGEX(STR(?schemaEndDate), \"[0-9]{4}-[0-9]{2}-[0-9]{2}\") && DATATYPE(?schemaEndDate) = xsd:date)\n    }\n    BIND(IF(BOUND(?startDate), ?startDate, ?schemaStartDate) AS ?finalStartDate)\n    BIND(IF(BOUND(?endDate), ?endDate, ?schemaEndDate) AS ?finalEndDate)\n  }\n\n  OPTIONAL { ?dataset dcat:contactPoint ?cp . \n    ?cp a ?cptype.\n    OPTIONAL { ?cp vcard:fn ?cpfn . }\n    OPTIONAL { \n      ?cp vcard:hasEmail ?cpemail . \n      FILTER(isIRI(?cpemail))\n    }\n  }\n\n  OPTIONAL { \n    ?dataset foaf:page ?page . \n    FILTER(isIRI(?page))\n  }\n  OPTIONAL { \n    ?dataset dcterms:conformsTo ?conformsTo . \n    FILTER(isIRI(?conformsTo))\n  }\n  OPTIONAL { ?dataset dcat:spatialResolutionInMeters ?spatialResolution . }\n  OPTIONAL { ?dataset dcat:temporalResolution ?temporalResolution . }\n  OPTIONAL { \n    ?dataset dcterms:isPartOf ?topDataset . \n    FILTER(isIRI(?topDataset))\n  }\n\n  OPTIONAL {\n    ?dataset dcat:distribution ?distribution .\n    ?distribution a dcat:Distribution ;\n             dcat:accessURL ?daURL .\n    \n    OPTIONAL {\n      ?distribution pu:špecifikácia ?pu .\n        ?pu a pu:Špecifikácia ;\n            pu:autorské-dielo ?touGeneral ;\n            pu:databáza-ako-autorské-dielo ?touDatabase ;\n            pu:databáza-chránená-zvláštnymi-právami ?touDatabaseExtra ;\n            pu:osobné-údaje ?touPersonalData ;\n            pu:autor ?touGeneralAuthor ;\n            pu:autor-databáze ?touDatabaselAuthor .\n\n        OPTIONAL { ?pu pu:autor ?touGeneralAuthor . }\n        OPTIONAL { ?pu pu:autor-databáze ?touDatabaselAuthor . }\n    }\n             \n    OPTIONAL { ?distribution dcterms:license ?license . }\n    OPTIONAL { ?distribution dcat:downloadURL ?ddURL . }\n    OPTIONAL { \n      ?distribution dcterms:format ?dformat . \n      FILTER(isIRI(?dformat))\n    }\n    OPTIONAL { \n      ?distribution dcat:mediaType ?dmimeType . \n      FILTER(isIRI(?dmimeType))\n    }\n    OPTIONAL { \n      ?distribution dcterms:conformsTo ?dconformsTo . \n      FILTER(isIRI(?dconformsTo))\n    }\n    OPTIONAL { \n      ?distribution dcat:compressFormat ?dcompressFormat . \n      FILTER(isIRI(?dcompressFormat))\n    }\n    OPTIONAL { \n      ?distribution dcat:packageFormat ?dpackageFormat . \n      FILTER(isIRI(?dpackageFormat))\n    }\n    OPTIONAL { ?distribution dcterms:title ?dtitle . }  \n    OPTIONAL { \n      ?distribution dcat:accessService ?dataService . \n      ?dataService a dcat:DataService ;\n                    dcterms:title ?sTitle ;\n                    dcat:endpointURL ?sEndpointURL .\n      OPTIONAL { \n        ?dataService dcat:endpointDescription ?sEndpointDescription .\n        FILTER(isIRI(?sEndpointDescription))\n      }\n      OPTIONAL { \n        ?dataService dcterms:conformsTo ?sConformsTo .\n        FILTER(isIRI(?sConformsTo))\n      }\n      FILTER(isIRI(?sEndpointURL))\n    }\n  }\n\n  BIND (STRDT(STR(?dataset), xsd:anyURI) AS ?dataset_old_str)\n  BIND (CONCAT(\"https://data.gov.sk/set/dataset/\") AS ?new_IRI_base)\n  BIND (MD5(CONCAT(STR(?dataset), STR(?publisher))) AS ?datasetID)\n  BIND (IRI(CONCAT(?new_IRI_base, ?datasetID)) as ?dataset_new)\n  BIND (IRI(CONCAT(?new_IRI_base, MD5(CONCAT(STR(?topDataset), STR(?publisher))))) as ?topDatasetNew)\n  BIND (IRI(CONCAT(\"https://data.gov.sk/set/distribution/\", ?datasetID, \"/\", MD5(STR(?distribution)))) as ?distribution_new)\n  BIND (IRI(CONCAT(\"https://data.gov.sk/set/data-service/\", MD5(CONCAT(STR(?dataService), STR(?publisher))))) as ?dataservice_new)\n  BIND (IRI(CONCAT(STR(?dataset_new),\"/záznam\")) as ?record_new)\n  BIND (IRI(CONCAT(STR(?dataset_new),\"/kontaktný-bod\")) as ?cp_new)\n  BIND (IRI(CONCAT(STR(?distribution_new),\"/podmienky-užitie\")) as ?pu_new)\n  BIND (IRI(CONCAT(STR(?dataset_new),\"/časové-pokrytie\")) as ?temporal_new)\n}"
+      "@value" : "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX schema: <http://schema.org/>\nPREFIX vcard: <http://www.w3.org/2006/vcard/ns#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX pu: <https://data.gov.sk/slovník/podmienky-užitie/>\nPREFIX nkod: <https://data.gov.sk/slovník/nkod/>\n\nCONSTRUCT {\n  ?catalog dcat:dataset ?dataset_new .\n\n  ?dataset_new a dcat:Dataset ;\n    dcterms:title ?title ;\n    dcterms:description ?description ;\n    dcat:theme ?theme ;\n    dcterms:accrualPeriodicity ?accrualPeriodicity ;\n    dcat:keyword ?keyword ;\n    dcterms:spatial ?spatial ;\n    dcterms:temporal ?temporal_new ;\n    dcat:contactPoint ?cp_new ;\n    foaf:page ?page ;\n    dcterms:issued ?issued ;\n    dcterms:conformsTo ?conformsTo ;\n    dcat:spatialResolutionInMeters ?spatialResolution ;\n    dcat:temporalResolution ?temporalResolution ;\n    dcterms:isPartOf ?topDatasetNew ;\n    dcat:distribution ?distribution_new ;\n    dcterms:publisher ?publisher ;\n    dcterms:identifier ?dataset_old_str .\n\n  ?cp_new a ?cptype; \n    vcard:fn ?cpfn ;\n    vcard:hasEmail ?cpemail .\n\n  ?temporal_new a dcterms:PeriodOfTime; \n    dcat:startDate ?finalStartDate ;\n    dcat:endDate ?finalEndDate .\n\n  ?publisher a foaf:Agent, foaf:Organization;\n    foaf:name ?pname .\n\n  ?distribution_new a dcat:Distribution ;\n    dcat:downloadURL ?ddURL ;\n    dcat:accessURL ?daURL ;\n    dcterms:format ?dformat ;\n    dcat:mediaType ?dmimeType ;\n    dcterms:conformsTo ?dconformsTo ;\n    dcat:compressFormat ?dcompressFormat ;\n    dcat:packageFormat ?dpackageFormat ;\n    dcterms:title ?dtitle ;\n    dcterms:license ?license .\n  \n  ?distribution_new pu:špecifikácia ?pu_new .\n\n  ?pu_new a pu:Špecifikácia ;\n    pu:autorské-dielo ?touGeneral ;\n\tpu:databáza-ako-autorské-dielo ?touDatabase ;\n    pu:databáza-chránená-zvláštnymi-právami ?touDatabaseExtra ;\n\tpu:osobné-údaje ?touPersonalData ;\n\tpu:autor ?touGeneralAuthor ;\n\tpu:autor-databáze ?touDatabaselAuthor .\n\n  ?distribution_new dcat:accessService ?dataservice_new . \n  ?dataservice_new a dcat:DataService ;\n    dcterms:title ?sTitle ;\n    dcterms:conformsTo ?sConformsTo ;\n    dcat:endpointURL ?sEndpointURL ;\n    dcat:endpointDescription ?sEndpointDescription .\n\n  ?record_new a dcat:CatalogRecord;\n    dcterms:source ?dataset ;\n    foaf:primaryTopic ?dataset_new ;\n    dcterms:language <http://publications.europa.eu/resource/authority/language/SVK>, <http://publications.europa.eu/resource/authority/language/ENG> ;\n    dcterms:conformsTo <https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/201-0> .\n}\nWHERE {\n  ?catalog a dcat:Catalog ;\n             dcat:dataset ?dataset .\n\n  ?dataset a dcat:Dataset ;\n             dcterms:title ?title ;\n             dcterms:description ?description ;\n             dcat:theme ?theme ;\n             dcterms:accrualPeriodicity ?accrualPeriodicity ;\n             dcat:keyword ?keyword ;\n             dcterms:spatial ?spatial ;\n             dcterms:publisher ?publisher .\n\n  ?publisher foaf:name ?pname .\n\n  FILTER(isIRI(?spatial) && isIRI(?theme) && isIRI(?accrualPeriodicity))\n  OPTIONAL { ?dataset dcterms:temporal ?temporal . \n    OPTIONAL { \n      ?temporal dcat:startDate ?startDate .\n      FILTER(REGEX(STR(?startDate), \"[0-9]{4}-[0-9]{2}-[0-9]{2}\") && DATATYPE(?startDate) = xsd:date)\n    }\n    OPTIONAL { \n      ?temporal dcat:endDate ?endDate . \n      FILTER(REGEX(STR(?endDate), \"[0-9]{4}-[0-9]{2}-[0-9]{2}\") && DATATYPE(?endDate) = xsd:date)\n    }\n    OPTIONAL { \n      ?temporal schema:startDate ?schemaStartDate . \n      FILTER(REGEX(STR(?schemaStartDate), \"[0-9]{4}-[0-9]{2}-[0-9]{2}\") && DATATYPE(?schemaStartDate) = xsd:date)\n    }\n    OPTIONAL { \n      ?temporal schema:endDate ?schemaEndDate . \n      FILTER(REGEX(STR(?schemaEndDate), \"[0-9]{4}-[0-9]{2}-[0-9]{2}\") && DATATYPE(?schemaEndDate) = xsd:date)\n    }\n    BIND(IF(BOUND(?startDate), ?startDate, ?schemaStartDate) AS ?finalStartDate)\n    BIND(IF(BOUND(?endDate), ?endDate, ?schemaEndDate) AS ?finalEndDate)\n  }\n\n  OPTIONAL { ?dataset dcat:contactPoint ?cp . \n    ?cp a ?cptype.\n    OPTIONAL { ?cp vcard:fn ?cpfn . }\n    OPTIONAL { \n      ?cp vcard:hasEmail ?cpemail . \n      FILTER(isIRI(?cpemail))\n    }\n  }\n\n  OPTIONAL { \n    ?dataset foaf:page ?page . \n    FILTER(isIRI(?page))\n  }\n  OPTIONAL { \n    ?dataset dcterms:conformsTo ?conformsTo . \n    FILTER(isIRI(?conformsTo))\n  }\n  OPTIONAL { ?dataset dcat:spatialResolutionInMeters ?spatialResolution . }\n  OPTIONAL { ?dataset dcat:temporalResolution ?temporalResolution . }\n  OPTIONAL { \n    ?dataset dcterms:isPartOf ?topDataset . \n    FILTER(isIRI(?topDataset))\n  }\n\n  OPTIONAL {\n    ?dataset dcat:distribution ?distribution .\n    ?distribution a dcat:Distribution ;\n             dcat:accessURL ?daURL .\n    \n    OPTIONAL {\n      ?distribution pu:špecifikácia ?pu .\n        ?pu a pu:Špecifikácia ;\n            pu:autorské-dielo ?touGeneral ;\n            pu:databáza-ako-autorské-dielo ?touDatabase ;\n            pu:databáza-chránená-zvláštnymi-právami ?touDatabaseExtra ;\n            pu:osobné-údaje ?touPersonalData ;\n            pu:autor ?touGeneralAuthor ;\n            pu:autor-databáze ?touDatabaselAuthor .\n\n        OPTIONAL { ?pu pu:autor ?touGeneralAuthor . }\n        OPTIONAL { ?pu pu:autor-databáze ?touDatabaselAuthor . }\n    }\n             \n    OPTIONAL { ?distribution dcterms:license ?license . }\n    OPTIONAL { ?distribution dcat:downloadURL ?ddURL . }\n    OPTIONAL { \n      ?distribution dcterms:format ?dformat . \n      FILTER(isIRI(?dformat))\n    }\n    OPTIONAL { \n      ?distribution dcat:mediaType ?dmimeType . \n      FILTER(isIRI(?dmimeType))\n    }\n    OPTIONAL { \n      ?distribution dcterms:conformsTo ?dconformsTo . \n      FILTER(isIRI(?dconformsTo))\n    }\n    OPTIONAL { \n      ?distribution dcat:compressFormat ?dcompressFormat . \n      FILTER(isIRI(?dcompressFormat))\n    }\n    OPTIONAL { \n      ?distribution dcat:packageFormat ?dpackageFormat . \n      FILTER(isIRI(?dpackageFormat))\n    }\n    OPTIONAL { ?distribution dcterms:title ?dtitle . }  \n    OPTIONAL { \n      ?distribution dcat:accessService ?dataService . \n      ?dataService a dcat:DataService ;\n                    dcterms:title ?sTitle ;\n                    dcat:endpointURL ?sEndpointURL .\n      OPTIONAL { \n        ?dataService dcat:endpointDescription ?sEndpointDescription .\n        FILTER(isIRI(?sEndpointDescription))\n      }\n      OPTIONAL { \n        ?dataService dcterms:conformsTo ?sConformsTo .\n        FILTER(isIRI(?sConformsTo))\n      }\n      FILTER(isIRI(?sEndpointURL))\n    }\n  }\n\n  BIND (STRDT(STR(?dataset), xsd:anyURI) AS ?dataset_old_str)\n  BIND (CONCAT(\"https://data.gov.sk/set/dataset/\") AS ?new_IRI_base)\n  BIND (MD5(CONCAT(STR(?dataset), STR(?publisher))) AS ?datasetID)\n  BIND (IRI(CONCAT(?new_IRI_base, ?datasetID)) as ?dataset_new)\n  BIND (IRI(CONCAT(?new_IRI_base, MD5(CONCAT(STR(?topDataset), STR(?publisher))))) as ?topDatasetNew)\n  BIND (IRI(CONCAT(\"https://data.gov.sk/set/distribution/\", ?datasetID, \"/\", MD5(STR(?distribution)))) as ?distribution_new)\n  BIND (IRI(CONCAT(\"https://data.gov.sk/set/data-service/\", MD5(CONCAT(STR(?dataService), STR(?publisher))))) as ?dataservice_new)\n  BIND (IRI(CONCAT(STR(?dataset_new),\"/záznam\")) as ?record_new)\n  BIND (IRI(CONCAT(STR(?dataset_new),\"/kontaktný-bod\")) as ?cp_new)\n  BIND (IRI(CONCAT(STR(?distribution_new),\"/podmienky-užitie\")) as ?pu_new)\n  BIND (IRI(CONCAT(STR(?dataset_new),\"/časové-pokrytie\")) as ?temporal_new)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -3879,10 +3983,10 @@
   "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/graph/211"
 }, {
   "@graph" : [ {
-    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/212",
+    "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654002010184/82/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX esl: <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunkedList#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\n\nCONSTRUCT { \n  ?configiri a esl:Task ;\n    esl:query ?query ;\n    esl:fileName ?filename ;\n    esl:endpoint ?endpoint ;\n    esl:chunkSize \"20\" .\n} \nWHERE \n{ \n  { \n    SELECT DISTINCT ?catalog ?endpoint \n    WHERE {\n      ?catalog dcat:endpointURL ?endpoint . \n    } \n  }\n   \nBIND(CONCAT(\"\"\"\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX schema: <http://schema.org/>\nPREFIX vcard: <http://www.w3.org/2006/vcard/ns#>\nPREFIX pu: <https://data.gov.sk/slovník/podmienky-užitie/>\n\nCONSTRUCT {\n  <\"\"\", STR(?catalog), \"\"\"> a dcat:Catalog ;\n    dcat:dataset ?dataset .\n\n  ?dataset a dcat:Dataset ;\n    dcterms:title ?title ;\n    dcterms:description ?description ;\n    dcat:theme ?theme ;\n    dcterms:accrualPeriodicity ?accrualPeriodicity ;\n    dcat:keyword ?keyword ;\n    dcterms:spatial ?spatial ;\n    dcterms:temporal ?temporal ;\n    dcat:contactPoint ?cp ;\n    foaf:page ?page ;\n    dcterms:conformsTo ?conformsTo ;\n    dcat:spatialResolutionInMeters ?spatialResolution ;\n    dcat:temporalResolution ?temporalResolution ;\n    dcterms:isPartOf ?topDataset ;\n    dcat:distribution ?distribution .\n\n  ?cp a ?cptype; \n    vcard:fn ?cpfn ;\n    vcard:hasEmail ?cpemail .\n\n  ?temporal a dcterms:PeriodOfTime; \n    dcat:startDate ?finalStartDate ;\n    dcat:endDate ?finalEndDate .\n\n  ?distribution a dcat:Distribution ;\n    dcat:downloadURL ?ddURL ;\n    dcterms:license ?license ;\n    dcat:accessURL ?daURL ;\n    dcterms:format ?dformat ;\n    dcat:mediaType ?dmimeType ;\n    dcterms:conformsTo ?dconformsTo ;\n    dcat:compressFormat ?dcompressFormat ;\n    dcat:packageFormat ?dpackageFormat ;\n    dcterms:title ?dtitle .\n\n  ?distribution pu:špecifikácia ?pu .\n  ?pu a pu:Špecifikácia ;\n    pu:autorské-dielo ?touGeneral ;\n\tpu:databáza-ako-autorské-dielo ?touDatabase ;\n    pu:databáza-chránená-zvláštnymi-právami ?touDatabaseExtra ;\n\tpu:osobné-údaje ?touPersonalData ;\n\tpu:autor ?touGeneralAuthor ;\n\tpu:autor-databáze ?touDatabaselAuthor .\n \n  ?distribution dcat:accessService ?dataService . \n\n  ?dataService a dcat:DataService ;\n    dcterms:title ?sTitle ;\n    dcterms:conformsTo ?sConformsTo ;\n    dcat:endpointURL ?sEndpointURL ;\n    dcat:endpointDescription ?sEndpointDescription .\t\n}\nWHERE { \n  ${VALUES}\n\n  ?dataset a dcat:Dataset ;\n    dcterms:title ?title ;\n    dcterms:description ?description ;\n    dcat:theme ?theme ;\n    dcterms:accrualPeriodicity ?accrualPeriodicity ;\n    dcat:keyword ?keyword ;\n    dcterms:spatial ?spatial .\n\n  OPTIONAL {\n    ?dataset dcterms:temporal ?temporal . \n    OPTIONAL { ?temporal dcat:startDate ?startDate . }\n    OPTIONAL { ?temporal dcat:endDate ?endDate . }\n    OPTIONAL { ?temporal schema:startDate ?schemaStartDate . }\n    OPTIONAL { ?temporal schema:endDate ?schemaEndDate . }\n  }\n\n  OPTIONAL {\n    ?dataset dcat:contactPoint ?cp . \n\n    ?cp a ?cptype.\n    OPTIONAL { ?cp vcard:fn ?cpfn . }\n    OPTIONAL { ?cp vcard:hasEmail ?cpemail . }\n  }\n\n  OPTIONAL { ?dataset foaf:page ?page . }\n  OPTIONAL { ?dataset dcterms:conformsTo ?conformsTo . }\n  OPTIONAL { ?dataset dcat:spatialResolutionInMeters ?spatialResolution . }\n  OPTIONAL { ?dataset dcat:temporalResolution ?temporalResolution . }\n  OPTIONAL { ?dataset dcterms:isPartOf ?topDataset . }\n\n  OPTIONAL {\n    ?dataset dcat:distribution ?distribution .\n    FILTER(isIRI(?distribution))\n\n    ?distribution a dcat:Distribution ;\n             dcat:accessURL ?daURL .\n\n\tOPTIONAL {\n      ?distribution pu:špecifikácia ?pu .\n        ?pu a pu:Špecifikácia ;\n            pu:autorské-dielo ?touGeneral ;\n            pu:databáza-ako-autorské-dielo ?touDatabase ;\n            pu:databáza-chránená-zvláštnymi-právami ?touDatabaseExtra ;\n            pu:osobné-údaje ?touPersonalData ;\n            pu:autor ?touGeneralAuthor ;\n            pu:autor-databáze ?touDatabaselAuthor .\n\n        OPTIONAL { ?pu pu:autor ?touGeneralAuthor . }\n        OPTIONAL { ?pu pu:autor-databáze ?touDatabaselAuthor . }\n    }\n\n\tOPTIONAL { ?distribution dcterms:license ?license .}    \n\tOPTIONAL { ?distribution dcat:downloadURL ?ddURL . }\n    OPTIONAL { ?distribution dcterms:format ?dformat . }\n    OPTIONAL { ?distribution dcat:mediaType ?dmimeType . }\n    OPTIONAL { ?distribution dcterms:conformsTo ?dconformsTo . }\n    OPTIONAL { ?distribution dcat:compressFormat ?dcompressFormat . }\n    OPTIONAL { ?distribution dcat:packageFormat ?dpackageFormat . }\n    OPTIONAL { ?distribution dcterms:title ?dtitle . }\n\n    OPTIONAL { \n      ?distribution dcat:accessService ?dataService . \n      FILTER(isIRI(?dataService))\n\n      ?dataService a dcat:DataService ;\n                    dcterms:title ?sTitle ;\n                    dcat:endpointURL ?sEndpointURL .\n      OPTIONAL { ?dataService dcat:endpointDescription ?sEndpointDescription .}\n      OPTIONAL { ?dataService dcterms:conformsTo ?sConformsTo .}\n    }\n  }\n  BIND(IF(BOUND(?startDate), ?startDate, ?schemaStartDate) AS ?finalStartDate)\n  BIND(IF(BOUND(?endDate), ?endDate, ?schemaEndDate) AS ?finalEndDate)\n}\n\"\"\") as ?query)\n\n\tBIND(CONCAT(REPLACE(STR(?catalog),\"[:/\\\\.]\",\"_\"),\".csv\") as ?filename)\n\tBIND(UUID() as ?configiri)\n}"
+      "@value" : "PREFIX esl: <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointChunkedList#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\n\nCONSTRUCT { \n  ?configiri a esl:Task ;\n    esl:query ?query ;\n    esl:fileName ?filename ;\n    esl:endpoint ?endpoint ;\n    esl:chunkSize \"20\" .\n} \nWHERE \n{ \n  { \n    SELECT DISTINCT ?catalog ?endpoint \n    WHERE {\n      ?catalog dcat:endpointURL ?endpoint . \n    } \n  }\n   \nBIND(CONCAT(\"\"\"\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX schema: <http://schema.org/>\nPREFIX vcard: <http://www.w3.org/2006/vcard/ns#>\nPREFIX pu: <https://data.gov.sk/slovník/podmienky-užitie/>\n\nCONSTRUCT {\n  <\"\"\", STR(?catalog), \"\"\"> a dcat:Catalog ;\n    dcat:dataset ?dataset .\n\n  ?dataset a dcat:Dataset ;\n    dcterms:title ?title ;\n    dcterms:description ?description ;\n    dcat:theme ?theme ;\n    dcterms:accrualPeriodicity ?accrualPeriodicity ;\n    dcat:keyword ?keyword ;\n    dcterms:spatial ?spatial ;\n    dcterms:temporal ?temporal ;\n    dcat:contactPoint ?cp ;\n    foaf:page ?page ;\n    dcterms:conformsTo ?conformsTo ;\n    dcat:spatialResolutionInMeters ?spatialResolution ;\n    dcat:temporalResolution ?temporalResolution ;\n    dcterms:isPartOf ?topDataset ;\n    dcterms:publisher ?publisher ;\n    dcat:distribution ?distribution .\n\n  ?cp a ?cptype; \n    vcard:fn ?cpfn ;\n    vcard:hasEmail ?cpemail .\n\n  ?temporal a dcterms:PeriodOfTime; \n    dcat:startDate ?finalStartDate ;\n    dcat:endDate ?finalEndDate .\n\n  ?distribution a dcat:Distribution ;\n    dcat:downloadURL ?ddURL ;\n    dcterms:license ?license ;\n    dcat:accessURL ?daURL ;\n    dcterms:format ?dformat ;\n    dcat:mediaType ?dmimeType ;\n    dcterms:conformsTo ?dconformsTo ;\n    dcat:compressFormat ?dcompressFormat ;\n    dcat:packageFormat ?dpackageFormat ;\n    dcterms:title ?dtitle .\n\n  ?distribution pu:špecifikácia ?pu .\n  ?pu a pu:Špecifikácia ;\n    pu:autorské-dielo ?touGeneral ;\n\tpu:databáza-ako-autorské-dielo ?touDatabase ;\n    pu:databáza-chránená-zvláštnymi-právami ?touDatabaseExtra ;\n\tpu:osobné-údaje ?touPersonalData ;\n\tpu:autor ?touGeneralAuthor ;\n\tpu:autor-databáze ?touDatabaselAuthor .\n \n  ?distribution dcat:accessService ?dataService . \n\n  ?dataService a dcat:DataService ;\n    dcterms:title ?sTitle ;\n    dcterms:conformsTo ?sConformsTo ;\n    dcat:endpointURL ?sEndpointURL ;\n    dcat:endpointDescription ?sEndpointDescription .\t\n}\nWHERE { \n  ${VALUES}\n\n  ?dataset a dcat:Dataset ;\n    dcterms:title ?title ;\n    dcterms:description ?description ;\n    dcat:theme ?theme ;\n    dcterms:accrualPeriodicity ?accrualPeriodicity ;\n    dcat:keyword ?keyword ;\n    dcterms:publisher ?publisher ;\n    dcterms:spatial ?spatial .\n\n  OPTIONAL {\n    ?dataset dcterms:temporal ?temporal . \n    OPTIONAL { ?temporal dcat:startDate ?startDate . }\n    OPTIONAL { ?temporal dcat:endDate ?endDate . }\n    OPTIONAL { ?temporal schema:startDate ?schemaStartDate . }\n    OPTIONAL { ?temporal schema:endDate ?schemaEndDate . }\n  }\n\n  OPTIONAL {\n    ?dataset dcat:contactPoint ?cp . \n\n    ?cp a ?cptype.\n    OPTIONAL { ?cp vcard:fn ?cpfn . }\n    OPTIONAL { ?cp vcard:hasEmail ?cpemail . }\n  }\n\n  OPTIONAL { ?dataset foaf:page ?page . }\n  OPTIONAL { ?dataset dcterms:conformsTo ?conformsTo . }\n  OPTIONAL { ?dataset dcat:spatialResolutionInMeters ?spatialResolution . }\n  OPTIONAL { ?dataset dcat:temporalResolution ?temporalResolution . }\n  OPTIONAL { ?dataset dcterms:isPartOf ?topDataset . }\n\n  OPTIONAL {\n    ?dataset dcat:distribution ?distribution .\n    FILTER(isIRI(?distribution))\n\n    ?distribution a dcat:Distribution ;\n             dcat:accessURL ?daURL .\n\n\tOPTIONAL {\n      ?distribution pu:špecifikácia ?pu .\n        ?pu a pu:Špecifikácia ;\n            pu:autorské-dielo ?touGeneral ;\n            pu:databáza-ako-autorské-dielo ?touDatabase ;\n            pu:databáza-chránená-zvláštnymi-právami ?touDatabaseExtra ;\n            pu:osobné-údaje ?touPersonalData ;\n            pu:autor ?touGeneralAuthor ;\n            pu:autor-databáze ?touDatabaselAuthor .\n\n        OPTIONAL { ?pu pu:autor ?touGeneralAuthor . }\n        OPTIONAL { ?pu pu:autor-databáze ?touDatabaselAuthor . }\n    }\n\n\tOPTIONAL { ?distribution dcterms:license ?license .}    \n\tOPTIONAL { ?distribution dcat:downloadURL ?ddURL . }\n    OPTIONAL { ?distribution dcterms:format ?dformat . }\n    OPTIONAL { ?distribution dcat:mediaType ?dmimeType . }\n    OPTIONAL { ?distribution dcterms:conformsTo ?dconformsTo . }\n    OPTIONAL { ?distribution dcat:compressFormat ?dcompressFormat . }\n    OPTIONAL { ?distribution dcat:packageFormat ?dpackageFormat . }\n    OPTIONAL { ?distribution dcterms:title ?dtitle . }\n\n    OPTIONAL { \n      ?distribution dcat:accessService ?dataService . \n      FILTER(isIRI(?dataService))\n\n      ?dataService a dcat:DataService ;\n                    dcterms:title ?sTitle ;\n                    dcat:endpointURL ?sEndpointURL .\n      OPTIONAL { ?dataService dcat:endpointDescription ?sEndpointDescription .}\n      OPTIONAL { ?dataService dcterms:conformsTo ?sConformsTo .}\n    }\n  }\n  BIND(IF(BOUND(?startDate), ?startDate, ?schemaStartDate) AS ?finalStartDate)\n  BIND(IF(BOUND(?endDate), ?endDate, ?schemaEndDate) AS ?finalEndDate)\n}\n\"\"\") as ?query)\n\n\tBIND(CONCAT(REPLACE(STR(?catalog),\"[:/\\\\.]\",\"_\"),\".csv\") as ?filename)\n\tBIND(UUID() as ?configiri)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
