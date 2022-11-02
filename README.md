@@ -1,6 +1,7 @@
 # LP-ETL pipeliny slovenského národního katalogu otevřených dat
 Národní katalog otevřených dat je realizován jako sada 11 pipeline v [LinkedPipes ETL](https://etl.linkedpipes.com), které jsou v této sekci popsány.
 Porozumění pipelinám vyžaduje znalost [RDF](https://www.w3.org/TR/rdf11-primer/) a [SPARQL](https://www.w3.org/TR/sparql11-overview/).
+[Dokumentace jednotlivých komponent](https://etl.linkedpipes.com/components/) v pipeline je součástí [dokumentace](https://etl.linkedpipes.com/documentation/) nástroje LinkedPipes ETL.
 
 ## Přípravné pipeline
 
@@ -26,16 +27,31 @@ To se děje zejména z důvodu timeoutů na straně CKAN API.
 Převod zahrnuje mapování IRI poskytovatelů, mapování územního pokrytí z polygonové reprezentace na IRI, sdružování a rozdělování datových sad do sérií a mapování hodnot ze CKAN API na hodnoty dle DCAT-AP-SK a evropských číselníků.
 Tato pipeline vyžaduje jako vstup CSV podobu mapovacích tabulek, které jsou připravovány Datovou kanceláří.
 Výsledkem je RDF dump ve formátu [RDF TriG](https://www.w3.org/TR/trig/).
+Vypnuté komponenty představují různé statistiky, které mohou být použity pro přehled o použitých hodnotách různých položek v záznamech datových sad.
 ![Screenshot: 02 - Transformace data.gov.sk](screenshoty/02.webp)
 
 ## Pipeline pro pravidelný běh NKOD
 
 Tyto pipeline běží v pravidelných intervalech a zajišťují vytvoření aktuálního obsahu NKOD.
+Platí, že pipeline na svém konci vždy pouští jednu či více navazujících pipeline.
 
 ### 03 - Harvestace LKOD a registrací
 [03 - Harvestace LKOD a registrací](pipeliny/03%20-%20Harvestace%20LKOD%20a%20registrac%C3%AD.jsonld) je hlavní pipeline zajišťující zpracování záznamů z registračních formulářů a harvestaci lokálních katalogů otevřených dat (LKODů), aktuálně ve 3 provedeních dle [DCAT-AP-SK 2.0](https://datova-kancelaria.github.io/dcat-ap-sk-2.0/), tj. CKAN API, DCAT-AP SPARQL Endpoint a DCAT-AP Dokumenty.
 Po dokončení harvestace přidává metadata pro samotný NKOD a generuje RDF TriG dump.
 ![Screenshot: 03 - Harvestace LKOD a registrací](screenshoty/03.webp)
+V levé části pipeline se přistupuje k registračním záznamům datových sad, lokálních katalogů a k registracím poskytovatelů.
+Tyto vstupy existují v podobě adresářů se záznamy na serveru.
+Do těchto adresářů se aktuálně dostávají z [GitHub repozitáře](https://github.com/datova-kancelaria/nkod-registrace).
+Toto bude v dalším vývoji nahrazeno plněním z ostatních částí portálu otevřených dat.
+
+V prostřední části pipeline je patrných 5 horizontálních částí.
+1. V první části tečou data z původního data.gov.sk, která byla připravena v předchozích pipeline.
+2. V druhé části tečou jednotlivé záznamy datových sad pořízené v budoucnu formulářem na portálu otevřených dat.
+3. Třetí část zpracovává lokální katalogy používající [rozhraní DCAT-AP SPARQL Endpoint](https://datova-kancelaria.github.io/dcat-ap-sk-2.0/#rozhranie-sparql-endpoint).
+4. Čtvrtá část zpracovává lokální katalogy používající [rozhraní DCAT-AP Dokumenty](https://datova-kancelaria.github.io/dcat-ap-sk-2.0/#rozhranie-dcat-ap-dokumenty).
+5. Pátá část zpracovává lokální katalogy používající [rozhraní CKAN API](https://datova-kancelaria.github.io/dcat-ap-sk-2.0/#rozhranie-ckan-api)
+
+Záznamy o datových sadách z různých zdrojů se následně spojí, pročistí, jsou přidána metadata NKOD, zejména datum harvestace, a nakonec je vytvořen RDF TriG dump obsahující aktuální podobu NKOD.
 
 ### 03.1 - Nahrát NKOD do GraphDB
 [03.1 - Nahrát NKOD do GraphDB](pipeliny/03.1%20-%20Nahr%C3%A1t%20NKOD%20do%20GraphDB.jsonld) nahrává obsah NKOD vygenerovaný v minulé pipeline do GraphDB. Nejprve je aktuální obsah GraphDB smazán, následně je nahrazen aktuální podobou NKOD.
@@ -46,7 +62,7 @@ Po dokončení harvestace přidává metadata pro samotný NKOD a generuje RDF T
 ![Screenshot: 03.2 - Spustit pipeliny pro kvalitu](screenshoty/03.2.webp)
 
 ### 04 - Statistika dostupnosti distribucí, schémat, podmínek užití a dokumentace - HEAD
-[04 - Statistika dostupnosti distribucí, schémat, podmínek užití a dokumentace - HEAD](pipeliny/04%20-%20Statistika%20dostupnosti%20distribuc%C3%AD%2C%20sch%C3%A9mat%2C%20podm%C3%ADnek%20u%C5%BEit%C3%AD%20a%20dokumentace%20-%20HEAD.jsonld) - Zkontroluje dostupnost všech v NKOD zaregistrovaných URL pomocí `HTTP HEAD` požadavku.
+[04 - Statistika dostupnosti distribucí, schémat, podmínek užití a dokumentace - HEAD](pipeliny/04%20-%20Statistika%20dostupnosti%20distribuc%C3%AD%2C%20sch%C3%A9mat%2C%20podm%C3%ADnek%20u%C5%BEit%C3%AD%20a%20dokumentace%20-%20HEAD.jsonld) - Zkontroluje dostupnost všech v NKOD zaregistrovaných URL pomocí `HTTP HEAD` požadavku s timeoutem 3 vteřiny.
 Jednotlivé větve představují jednotlivé druhy URL registrované v NKOD, jako je například URL souboru ke stažení, URL dokumentace datové sady, atd.
 Následně je informace o (ne)dostupnosti reprezentována pomocí [Data Quality Vocabulary](https://www.w3.org/TR/vocab-dqv/) a nahrána do SPARQL endpointu NKOD.
 Agregované indikátory dostupnosti jsou uchovávány jako časová řada v souborech.
@@ -54,7 +70,7 @@ Neagregované indikátory jsou při každém běhu přepsány.
 ![Screenshot: 04 - Statistika dostupnosti distribucí, schémat, podmínek užití a dokumentace - HEAD](screenshoty/04.webp)
 
 ### 05 - Statistika dostupnosti distribucí, schémat, podmínek užití a dokumentace - CORS
-[05 - Statistika dostupnosti distribucí, schémat, podmínek užití a dokumentace - CORS](pipeliny/05%20-%20Statistika%20dostupnosti%20distribuc%C3%AD%2C%20sch%C3%A9mat%2C%20podm%C3%ADnek%20u%C5%BEit%C3%AD%20a%20dokumentace%20-%20CORS.jsonld) - Zkontroluje dostupnost techniky CORS na všech v NKOD zaregistrovaných URL pomocí `HTTP OPTIONS` požadavku.
+[05 - Statistika dostupnosti distribucí, schémat, podmínek užití a dokumentace - CORS](pipeliny/05%20-%20Statistika%20dostupnosti%20distribuc%C3%AD%2C%20sch%C3%A9mat%2C%20podm%C3%ADnek%20u%C5%BEit%C3%AD%20a%20dokumentace%20-%20CORS.jsonld) - Zkontroluje dostupnost techniky CORS na vybraných v NKOD zaregistrovaných URL pomocí `HTTP OPTIONS` požadavku s timeoutem 3 vteřiny.
 Jednotlivé větve představují jednotlivé druhy URL registrované v NKOD, jako je například URL souboru ke stažení, URL dokumentace datové sady, atd.
 Následně je informace o (ne)dostupnosti CORS reprezentována pomocí [Data Quality Vocabulary](https://www.w3.org/TR/vocab-dqv/) a nahrána do SPARQL endpointu NKOD.
 Agregované indikátory dostupnosti jsou uchovávány jako časová řada v souborech.
@@ -62,7 +78,7 @@ Neagregované indikátory jsou při každém běhu přepsány.
 ![Screenshot: 05 - Statistika dostupnosti distribucí, schémat, podmínek užití a dokumentace - CORS](screenshoty/05.webp)
 
 ### 06 - Kvalita metadatových záznamů v NKOD DQV
-[06 - Kvalita metadatových záznamů v NKOD DQV](pipeliny/06%20-%20Kvalita%20metadatov%C3%BDch%20z%C3%A1znam%C5%AF%20v%20NKOD%20DQV.jsonld) - Počítá indikátory kvality metadatových záznamů v NKOD s ohledem na úplnost záznamu vůči [DCAT-AP-SK](https://datova-kancelaria.github.io/dcat-ap-sk-2.0/) a základní statistiky.
+[06 - Kvalita metadatových záznamů v NKOD DQV](pipeliny/06%20-%20Kvalita%20metadatov%C3%BDch%20z%C3%A1znam%C5%AF%20v%20NKOD%20DQV.jsonld) - Počítá jednotlivé indikátory kvality metadatových záznamů v NKOD s ohledem na úplnost záznamu vůči [DCAT-AP-SK](https://datova-kancelaria.github.io/dcat-ap-sk-2.0/) a základní statistiky.
 Agregované indikátory dostupnosti jsou uchovávány jako časová řada v souborech.
 ![Screenshot: 06 - Kvalita metadatových záznamů v NKOD DQV](screenshoty/06.webp)
 
