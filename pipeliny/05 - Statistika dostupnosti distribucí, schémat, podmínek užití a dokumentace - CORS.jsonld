@@ -3951,7 +3951,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#path" : [ {
-      "@value" : "/data/website/dumps/kvalita/dostupnost-cors-archiv"
+      "@value" : "/data/website/kvalita/dostupnost-cors-archiv"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4086,7 +4086,7 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654087778076/243",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#path" : [ {
-      "@value" : "/data/website/dumps/nkod-metadata.ttl"
+      "@value" : "/data/website/nkod-metadata.ttl"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#pathControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4128,7 +4128,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#path" : [ {
-      "@value" : "/data/website/dumps/kvalita/dostupnost-cors"
+      "@value" : "/data/website/kvalita/dostupnost-cors"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4152,7 +4152,7 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654087778076/260",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/x-deleteDirectory#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/x-deleteDirectory#directory" : [ {
-      "@value" : "/data/website/dumps/kvalita/dostupnost-cors"
+      "@value" : "/data/website/kvalita/dostupnost-cors"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-deleteDirectory#directoryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4449,7 +4449,7 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654087778076/318",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#path" : [ {
-      "@value" : "/data/website/dumps/nkod.trig"
+      "@value" : "/data/website/nkod.trig"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#pathControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"

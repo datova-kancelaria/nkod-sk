@@ -2177,7 +2177,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#path" : [ {
-      "@value" : "/data/website/dumps/kvalita/kvalita"
+      "@value" : "/data/website/kvalita/kvalita"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2189,7 +2189,7 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654087784547/84/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#path" : [ {
-      "@value" : "/data/website/dumps/nkod-metadata.ttl"
+      "@value" : "/data/website/nkod-metadata.ttl"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-filesFromLocal#pathControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2353,7 +2353,7 @@
     "@id" : "https://sk-nkod.opendata.cz/etl/resources/pipelines/1654087784547/124",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/x-deleteDirectory#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/x-deleteDirectory#directory" : [ {
-      "@value" : "/data/website/dumps/kvalita/kvalita"
+      "@value" : "/data/website/kvalita/kvalita"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-deleteDirectory#directoryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2811,7 +2811,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#path" : [ {
-      "@value" : "/data/website/dumps/kvalita/kvalita-archiv"
+      "@value" : "/data/website/kvalita/kvalita-archiv"
     } ],
     "http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"

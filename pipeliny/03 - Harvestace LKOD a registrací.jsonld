@@ -5140,7 +5140,7 @@
         ],
         "http://plugins.linkedpipes.com/ontology/l-filesToLocal#path": [
           {
-            "@value": "/data/website/dumps"
+            "@value": "/data/website"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl": [
@@ -5213,7 +5213,7 @@
         ],
         "http://plugins.linkedpipes.com/ontology/l-filesToLocal#path": [
           {
-            "@value": "/data/website/dumps"
+            "@value": "/data/website"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl": [
