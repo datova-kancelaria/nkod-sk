@@ -1,7 +1,9 @@
-# LP-ETL pipeliny slovenského národního katalogu otevřených dat
+# LP-ETL pipeliny slovenského národního katalogu otevřených dat - vývojový repozitář
 Národní katalog otevřených dat je realizován jako sada 11 pipeline v [LinkedPipes ETL](https://etl.linkedpipes.com), které jsou v této sekci popsány.
 Porozumění pipelinám vyžaduje znalost [RDF](https://www.w3.org/TR/rdf11-primer/) a [SPARQL](https://www.w3.org/TR/sparql11-overview/).
 [Dokumentace jednotlivých komponent](https://etl.linkedpipes.com/components/) v pipeline je součástí [dokumentace](https://etl.linkedpipes.com/documentation/) nástroje LinkedPipes ETL.
+
+Pro nasazení do testovacího a prodkučního prostředí je potřeba jejich export nahrát do [repozitáře pro import](https://github.com/datova-kancelaria/nkod-pipeline).
 
 ## Přípravné pipeline
 
