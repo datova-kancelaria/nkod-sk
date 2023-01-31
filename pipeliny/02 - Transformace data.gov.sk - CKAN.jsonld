@@ -130,7 +130,7 @@
         "http://linkedpipes.com/ontology/lastUpdate": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2023-01-27T16:26:06.113960842"
+            "@value": "2023-01-31T07:59:22.913783601"
           }
         ],
         "http://linkedpipes.com/ontology/profile": [
@@ -1232,7 +1232,7 @@
         ],
         "http://linkedpipes.com/ontology/vertex": [
           {
-            "@id": "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/vertex/61c0-9a18"
+            "@id": "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/vertex/d607-8558"
           }
         ]
       },
@@ -3102,7 +3102,7 @@
         ]
       },
       {
-        "@id": "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/vertex/61c0-9a18",
+        "@id": "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/vertex/d607-8558",
         "http://linkedpipes.com/ontology/order": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#int",
@@ -3595,7 +3595,7 @@
   {
     "@graph": [
       {
-        "@id": "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/136",
+        "@id": "https://sk-nkod.opendata.cz/etl/resources/pipelines/1651823993742/63/configuration",
         "@type": [
           "http://plugins.linkedpipes.com/ontology/l-filesToLocal#Configuration"
         ],
@@ -3611,7 +3611,7 @@
         ],
         "http://plugins.linkedpipes.com/ontology/l-filesToLocal#path": [
           {
-            "@value": "/data/lp-etl/data.gov.sk/migrated/data.gov.sk.trig"
+            "@value": "/data/lp-etl/data.gov.sk/migrated"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/l-filesToLocal#pathControl": [
