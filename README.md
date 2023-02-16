@@ -99,16 +99,3 @@ Servisní pipeliny jsou určeny pro administrátorské zásahy, testování a la
 ### 00 - Nahrát aktuální stav do GraphDB
 [00 - Nahrát aktuální stav do GraphDB](pipeliny/servisn%C3%AD/00%20-%20Nahr%C3%A1t%20aktu%C3%A1ln%C3%AD%20stav%20do%20GraphDB.jsonld) - Smaže aktuální obsah GraphDB a nahraje znovu její obsah z RDF dumpů.
 ![Screenshot: 00 - Nahrát aktuální stav do GraphDB](screenshoty/00-graphdb.webp)
-
-### CouchDB hack
-[CouchDB hack](pipeliny/servisn%C3%AD/CouchDB%20hack.jsonld) slouží k nahrání číselníků do CouchDB pro jejich správné zobrazení v DCAT-AP Vieweru - uživatelském rozhraní českého NKOD. Zde je použit pouze pro testovací účely a není součástí produkčního slovenského NKOD.
-
-### Smazat GraphDB
-[Smazat GraphDB](pipeliny/servisn%C3%AD/Smazat%20GraphDB.jsonld) slouží ke smazání obsahu GraphDB.
-
-### CSW catalog test
-[CSW catalog test](pipeliny/servisn%C3%AD/CSW%20catalog%20test.jsonld) slouží jako demonstrace možnosti harvestace katalogu typu služba CSW - geodata. Tento typ harvestace nakonec nebude nasazen do produkce, CSW katalogy vystaví rozhraní dle DCAT-AP-SK.
-
-### DCAT-AP dump to LP-DAV (NKOD)
-[DCAT-AP dump to LP-DAV (NKOD)](pipeliny/servisn%C3%AD/DCAT-AP%20dump%20to%20LP-DAV%20(NKOD).jsonld) nahrává aktuální obsah NKOD z RDF dumpu do CouchDB a Apache Solr pro zobrazení v DCAT-AP Vieweru - uživatelském rozhraní českého NKOD. Zde slouží pouze pro testování - nebude součástí produkčního řešení.
-
